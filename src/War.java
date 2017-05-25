@@ -1,3 +1,5 @@
+import personage.Mag;
+
 /**
  * Created by dos on 25.05.2017.
  */
