@@ -5,25 +5,32 @@ package personage;
  */
 public class Elf extends BasicPersona implements BasicIntefase{
 
-    public Elf(Profession profession) {
+    public Elf(Profession profession, int index) {
         super(profession);
-        this.setName(Elf.class.getSimpleName() +" "+ profession);
-        if(profession.equals(Profession.ARCHER)){
-            this.attack1 = 7;
-            this.attack2 = 3;
-        }else if(profession.equals(Profession.MAG)){
-            this.attack1 = 150;
-            this.attack2 = 10;
-        }else if(profession.equals(Profession.WARRIOR)){
-            this.attack1 = 15;
-            this.attack2 = 15;
+
+        switch (profession){
+            case ARCHER:{
+                this.setName(Elf.class.getSimpleName() +" "+ profession + index);
+                this.attack1 = 7;
+                this.attack2 = 3;
+                break;
+            }
+            case MAG:{
+                this.setName(Elf.class.getSimpleName() +" "+ profession);
+                this.attack1 = 150;
+                this.attack2 = 10;
+                break;
+            }
+            case WARRIOR:{
+                this.setName(Elf.class.getSimpleName() +" "+ profession + index);
+                this.attack1 = 15;
+                this.attack2 = 15;
+                break;
+            }
         }
 
     }
-    public Elf(Profession profession, int index) {
-        super(profession);
-        this.setName(Elf.class.getSimpleName() +" "+ profession+index);
-    }
+
 
 
 

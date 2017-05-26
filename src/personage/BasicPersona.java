@@ -58,24 +58,44 @@ public class BasicPersona implements BasicIntefase{
     @Override
     public void attack1(BasicPersona persona) {
         if(profession.equals(Profession.ARCHER)){
-            persona.health = persona.health - this.attack1;
+            if(this.isModify() || this.isUnModify()){
+                persona.health = persona.health - this.modifyAttack1;
+            }else{
+                persona.health = persona.health - this.attack1;
+            }
         }else if(profession.equals(Profession.MAG)){
             persona.modifyAttack1 = persona.attack1 * this.attack1 /100;
             persona.modifyAttack2 = persona.attack2 * this.attack1 / 100;
             persona.setModify(true);
         }else if(profession.equals(Profession.WARRIOR)){
-            persona.health = persona.health - this.attack1;
+            if(this.isModify() || this.isUnModify()){
+                persona.health = persona.health - this.modifyAttack1;
+            }else{
+                persona.health = persona.health - this.attack1;
+            }
         }
     }
 
     @Override
     public void attack2(BasicPersona persona) {
         if(profession.equals(Profession.ARCHER)){
-            persona.health = persona.health - this.attack2;
+            if(this.isModify() || this.isUnModify()){
+                persona.health = persona.health - this.modifyAttack2;
+            }else{
+                persona.health = persona.health - this.attack2;
+            }
         }else if(profession.equals(Profession.MAG)){
-            persona.health = persona.health - this.attack2;
+            if(this.isModify() || this.isUnModify()){
+                persona.health = persona.health - this.modifyAttack2;
+            }else{
+                persona.health = persona.health - this.attack2;
+            }
         }else if(profession.equals(Profession.WARRIOR)){
-            persona.health = persona.health - this.attack2;
+            if(this.isModify() || this.isUnModify()){
+                persona.health = persona.health - this.modifyAttack2;
+            }else{
+                persona.health = persona.health - this.attack2;
+            }
         }
     }
 }
