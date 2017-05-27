@@ -32,19 +32,13 @@ public class Orc extends BasicPersona {
 
     @Override
     public void attack2(BasicPersona persona) {
-        if(profession.equals(Profession.ARCHER)){
-            if(this.isModify() || this.isUnModify()){
-                persona.health = persona.health - this.modifyAttack2;
-            }else{
-                persona.health = persona.health - this.attack2;
-            }
-        }else if(profession.equals(Profession.MAG)){
+       if(profession.equals(Profession.MAG)){
             if(persona.isModify()){
                 persona.modifyAttack1 =0;
                 persona.modifyAttack2 = 0;
                 persona.setModify(false);
             }
-        }else if(profession.equals(Profession.WARRIOR)){
+        }else {
             if(this.isModify() || this.isUnModify()){
                 persona.health = persona.health - this.modifyAttack2;
             }else{
