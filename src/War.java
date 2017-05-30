@@ -17,9 +17,19 @@ public class War {
     private static ArrayList secondTeamModify = new ArrayList<>();
     private static War war;
     private static boolean isWinner = false;
+    public static Statistics statistics;
+
+    public War(Statistics statistics) {
+        this.statistics = statistics;
+    }
 
     public static void main(String[] args) {
-        war = new War();
+        statistics = new Statistics();
+        war = new War(statistics);
+
+        String s = "Выбор расс...";
+        System.out.println(s);
+        statistics.addProgressWar(s);
 
         Enum races1 = war.randomAlliance();
         String nameRaces1 = races1.name();
@@ -29,26 +39,49 @@ public class War {
         String nameRaces2 = races2.name();
         secondTeam = SquadFactory.getSquad(races2);
 
-        System.out.println(nameRaces1 + " против " + nameRaces2);
+        s = nameRaces1 + " против " + nameRaces2;
+        System.out.println(s);
+        statistics.addProgressWar(s);
 
-        int poriadok = Helper.random();
+        int countAttackTeam = 0;
 
-        for (int i = poriadok; true; i++) {
+        for (int i = Helper.random(); true; i++) {
             if(i % 2 == 0){
-                run(firstTeam,firstTeamModify,secondTeam,secondTeamModify);
-                if(isWinner){
-                    System.out.println("Победили " + nameRaces1);
+                countAttackTeam++;
+                s = "Атака " + countAttackTeam + "-я. Атакует отряд " + nameRaces1;
+                System.out.println(s);
+                Statistics.addProgressWar(s);
+                int a = run(firstTeam,firstTeamModify,secondTeam,secondTeamModify);
+                statistics.addCountAttackFirstTeam();
+                statistics.addMoveNumbersFirstTeam(a);
+                if(isWinner(secondTeam,secondTeamModify)){
+                    s = "Бой окончен! \n"+ "Победили " + nameRaces1;
+                    System.out.println(s);
+                    statistics.addProgressWar(s);
                     break;
                 }
 
             }else{
-                run(secondTeam,secondTeamModify,firstTeam,firstTeamModify);
-                if(isWinner){
-                    System.out.println("Победили " + nameRaces2);
+                countAttackTeam++;
+                s = "Атака " + countAttackTeam + "-я. Атакует отряд " + nameRaces2;
+                System.out.println(s);
+                Statistics.addProgressWar(s);
+                int a = run(secondTeam,secondTeamModify,firstTeam,firstTeamModify);
+                statistics.addCountAttackSecondTeam();
+                statistics.addMoveNumbersSecondTeam(a);
+                if(isWinner(firstTeam,firstTeamModify)){
+                    s = "Бой окончен! \n"+ "Победили " + nameRaces2;
+                    System.out.println(s);
+                    statistics.addProgressWar(s);
                     break;
                 }
             }
         }
+        System.out.println("Hoda pervoi" + statistics.getMoveNumbersFirstTeam());
+        System.out.println("Hoda vtoroi" + statistics.getMoveNumbersSecondTeam());
+        System.out.println("Atack pervoi" + statistics.getCountAttackFirstTeam());
+        System.out.println("Atack vtoroi" + statistics.getCountAttackSecondTeam());
+        System.out.println(statistics.getProgressWar().toString());
 
     }
 
@@ -57,11 +90,12 @@ public class War {
 
 
 
-    private static void run(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam,
+    private static int run(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam,
                             ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         ArrayList listWhoWalked = new ArrayList<>();
-
+        int count = 0;
         while (modifyAttackingTeam.size() > 0 && !isWinner(defensibleTeam,modifyDefensibleTeam)){
+            ++count;
             int index = Helper.random(modifyAttackingTeam.size()-1);
             if(Helper.random()==0){
                 modifyAttackingTeam.get(index).attack1(attackingTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
@@ -75,7 +109,7 @@ public class War {
         }
 
         while (attackingTeam.size() > 0 && !isWinner(defensibleTeam,modifyDefensibleTeam)){
-
+            ++count;
             ArrayList attackTeam = new ArrayList<>();
             attackTeam.addAll(listWhoWalked);
             attackTeam.addAll(attackingTeam);
@@ -96,6 +130,7 @@ public class War {
         }
         attackingTeam.addAll(listWhoWalked);
         System.out.println("========================================================");
+        return count;
 
     }
 

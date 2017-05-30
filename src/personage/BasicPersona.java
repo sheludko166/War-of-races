@@ -1,7 +1,5 @@
 package personage;
 
-
-
 import java.util.ArrayList;
 
 /**
@@ -20,6 +18,16 @@ public class BasicPersona implements BasicIntefase{
     protected int modifyAttack2;
 
 
+    public BasicPersona(Profession profession) {
+        this.health = 100;
+        this.isAlive = true;
+        this.modify = false;
+        this.profession = profession;
+
+    }
+
+
+
     public boolean isModify() {
         return modify;
     }
@@ -35,13 +43,7 @@ public class BasicPersona implements BasicIntefase{
         this.unModify = unModify;
     }
 
-    public BasicPersona(Profession profession) {
-        this.health = 100;
-        this.isAlive = true;
-        this.modify = false;
 
-       this.profession = profession;
-    }
 
     public String getName() {
         return name;
@@ -112,45 +114,6 @@ public class BasicPersona implements BasicIntefase{
                 }else if(modifyDefensibleTeam.size() >0 && defensibleTeam.size()<=0){
                     attackModifyDefensibleTeam(modifyDefensibleTeam, atac, attack);
                 }
-                /*if(modifyDefensibleTeam.size()>0){
-                    if(random() == 0){
-                        int a = random(defensibleTeam.size() -1);
-                        defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
-                        if(defensibleTeam.get(a).health <= 0){
-                            defensibleTeam.get(a).setAlive(false);
-                            System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                                    + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
-                            defensibleTeam.remove(a);
-                        }else{
-                            System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
-                        }
-
-                    }else {
-                        int a = random(modifyDefensibleTeam.size() - 1);
-
-                        modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
-                        if (modifyDefensibleTeam.get(a).health <= 0) {
-                            modifyDefensibleTeam.get(a).setAlive(false);
-                            System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() +
-                                    " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
-                            modifyDefensibleTeam.remove(a);
-                        } else {
-                            System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
-                        }
-
-                    }
-                }else{
-                    int a = random(defensibleTeam.size() -1);
-                    defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
-                    if(defensibleTeam.get(a).health <= 0){
-                        defensibleTeam.get(a).setAlive(false);
-                        System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                                + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
-                        defensibleTeam.remove(a);
-                    }else{
-                        System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
-                    }
-                }*/
                 break;
             }
         }
@@ -189,46 +152,6 @@ public class BasicPersona implements BasicIntefase{
         }else if(modifyDefensibleTeam.size() >0 && defensibleTeam.size()<=0){
             attackModifyDefensibleTeam(modifyDefensibleTeam, atac, attack);
         }
-        /*if(modifyDefensibleTeam.size()>0){
-            if(random() == 0){
-                int a = random(defensibleTeam.size() -1);
-                    defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
-                    if(defensibleTeam.get(a).health <= 0){
-                        defensibleTeam.get(a).setAlive(false);
-                        System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                                + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
-                        defensibleTeam.remove(a);
-                    }else{
-                        System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
-                    }
-
-            }else {
-                int a = random(modifyDefensibleTeam.size() - 1);
-
-                modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
-                if (modifyDefensibleTeam.get(a).health <= 0) {
-                    modifyDefensibleTeam.get(a).setAlive(false);
-                    System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() +
-                            " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
-                    modifyDefensibleTeam.remove(a);
-                } else {
-                    System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
-                }
-
-            }
-        }else{
-            int a = random(defensibleTeam.size() -1);
-            defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
-            if(defensibleTeam.get(a).health <= 0){
-                defensibleTeam.get(a).setAlive(false);
-                System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                        + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
-                defensibleTeam.remove(a);
-            }else{
-                System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
-            }
-        }*/
-
     }
 
     protected static int random(int i){
