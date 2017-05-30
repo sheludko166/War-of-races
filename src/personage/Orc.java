@@ -1,5 +1,7 @@
 package personage;
 
+import Helper.Helper;
+
 import java.util.ArrayList;
 
 /**
@@ -12,17 +14,20 @@ public class Orc extends BasicPersona {
         switch (profession){
             case ARCHER:{
                 this.setName(Orc.class.getSimpleName() +" "+ profession + index);
+                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" "+ profession + index);
                 this.attack1 = 3;
                 this.attack2 = 2;
                 break;
             }
             case MAG:{
                 this.setName(Orc.class.getSimpleName() +" Shaman");
+                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" Shaman");
                 this.attack1 = 150;
                 break;
             }
             case WARRIOR:{
                 this.setName(Orc.class.getSimpleName() +" Goblin" + index);
+                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" Goblin" + index);
                 this.attack1 = 20;
                 this.attack2 = 20;
                 break;
@@ -57,11 +62,12 @@ public class Orc extends BasicPersona {
         switch (profession){
             case MAG: {
                 if(modifyDefensibleTeam.size() > 0){
-                    int a = random(modifyDefensibleTeam.size()-1);
+                    int a = Helper.random(modifyDefensibleTeam.size()-1);
                     modifyDefensibleTeam.get(a).setModify(false);
-                    System.out.println(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
+                    Helper.writeMessageInConsoleAndStatistics(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
+
                 }else{
-                    System.out.println(this.getName() + " никого не "+atac);
+                    Helper.writeMessageInConsoleAndStatistics(this.getName() + " никого не "+atac);
                 }
                 break;
             }

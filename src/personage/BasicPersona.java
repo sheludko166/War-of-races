@@ -1,5 +1,7 @@
 package personage;
 
+import Helper.Helper;
+
 import java.util.ArrayList;
 
 /**
@@ -18,12 +20,12 @@ public class BasicPersona implements BasicIntefase{
     protected int modifyAttack2;
 
 
+
     public BasicPersona(Profession profession) {
         this.health = 100;
         this.isAlive = true;
         this.modify = false;
         this.profession = profession;
-
     }
 
 
@@ -95,12 +97,12 @@ public class BasicPersona implements BasicIntefase{
                 attackingTeamTmp.addAll(attackingTeam);
                 attackingTeamTmp.remove(this);
                 if (attackingTeamTmp.size() > 0) {
-                    int i = random(attackingTeamTmp.size() -1);
+                    int i = Helper.random(attackingTeamTmp.size() -1);
                     attackingTeamTmp.get(i).setModify(true);
                     attackingTeamTmp.get(i).modifyAttack1 = attackingTeamTmp.get(i).attack1 * attack1/100;
                     attackingTeamTmp.get(i).modifyAttack2 = attackingTeamTmp.get(i).attack2 * attack1/100;
                     modifyAttackingTeam.add(attackingTeamTmp.get(i));
-                    System.out.println(name + atac + attackingTeamTmp.get(i).getName());
+                    Helper.writeMessageInConsoleAndStatistics(name + atac + attackingTeamTmp.get(i).getName());
                 }else{
                     this.attack2(attackingTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
                 }
@@ -154,64 +156,58 @@ public class BasicPersona implements BasicIntefase{
         }
     }
 
-    protected static int random(int i){
-        return (int) Math.round(Math.random() * i);
-    }
-    protected static int random(){
-        return (int) Math.round(Math.random() );
-    }
 
     protected void attackModifyDefensibleTeam(ArrayList<? extends BasicPersona> modifyDefensibleTeam, String atac, int attack) {
-        int a = random(modifyDefensibleTeam.size() - 1);
+        int a = Helper.random(modifyDefensibleTeam.size() - 1);
 
         modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
         if (modifyDefensibleTeam.get(a).health <= 0) {
             modifyDefensibleTeam.get(a).setAlive(false);
-            System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() +
+            Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() +
                     " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
             modifyDefensibleTeam.remove(a);
         } else {
-            System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+            Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
         }
     }
 
     protected void attackDefensebleTeam(ArrayList<? extends BasicPersona> defensibleTeam, String atac, int attack) {
-        int a = random(defensibleTeam.size() -1);
+        int a = Helper.random(defensibleTeam.size() -1);
         defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
         if(defensibleTeam.get(a).health <= 0){
             defensibleTeam.get(a).setAlive(false);
-            System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
+            Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: "
                     + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
             defensibleTeam.remove(a);
         }else{
-            System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+            Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
         }
     }
 
     protected void attackIfTwoDefensebleTeam(ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam, String atac, int attack) {
-        if(random() == 0){
-            int a = random(defensibleTeam.size() -1);
+        if(Helper.random() == 0){
+            int a = Helper.random(defensibleTeam.size() -1);
             defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
             if(defensibleTeam.get(a).health <= 0){
                 defensibleTeam.get(a).setAlive(false);
-                System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: "
+                Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: "
                         + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
                 defensibleTeam.remove(a);
             }else{
-                System.out.println(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+                Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
             }
 
         }else {
-            int a = random(modifyDefensibleTeam.size() - 1);
+            int a = Helper.random(modifyDefensibleTeam.size() - 1);
 
             modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
             if (modifyDefensibleTeam.get(a).health <= 0) {
                 modifyDefensibleTeam.get(a).setAlive(false);
-                System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() +
+                Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() +
                         " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
                 modifyDefensibleTeam.remove(a);
             } else {
-                System.out.println(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+                Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
             }
 
         }

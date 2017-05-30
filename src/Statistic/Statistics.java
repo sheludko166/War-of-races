@@ -1,3 +1,5 @@
+package Statistic;
+
 /**
  * Created by Dima on 30.05.2017.
  */
@@ -5,14 +7,24 @@
 
 public class Statistics {
 
-    private static int countAttackFirstTeam = 0;
-    private static int countAttackSecondTeam = 0;
+    private static int countAttackFirstTeam ;
+    private static int countAttackSecondTeam ;
 
     private static int moveNumbersFirstTeam;
     private static int moveNumbersSecondTeam;
+    private static int allmove;
 
 
     private static StringBuilder progressWar = new StringBuilder();
+
+
+    public static int getAllmove() {
+        return allmove;
+    }
+
+    public static void addTotalmove() {
+        allmove++;
+    }
 
     public int getMoveNumbersFirstTeam() {
         return moveNumbersFirstTeam;
@@ -48,7 +60,7 @@ public class Statistics {
         countAttackSecondTeam++;
     }
 
-    public int getCountTotalAttacks() {
+    public static int getCountTotalAttacks() {
         return countAttackFirstTeam + countAttackSecondTeam;
     }
 
