@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class SquadFactory {
 
-    public static List getSquad(Enum races) {
+    public static ArrayList getSquad(Enum races) {
 
         if (races.equals(Alliance.HUMAN)) {
             return getHumanSquad();
@@ -27,7 +27,7 @@ public class SquadFactory {
         }
     }
 
-    private static List getUndeadSquad() {
+    private static ArrayList<Undead> getUndeadSquad() {
         ArrayList<Undead> list = new ArrayList<>();
         list.add(new Undead(Profession.MAG,0));
         for(int i =1; i<4; i++){
@@ -39,7 +39,7 @@ public class SquadFactory {
         return list;
     }
 
-    private static List getOrcsSquad() {
+    private static ArrayList<Orc> getOrcsSquad() {
         ArrayList<Orc> list = new ArrayList<>();
         list.add(new Orc(Profession.MAG,0));
         for(int i =1; i<4; i++){
@@ -51,7 +51,7 @@ public class SquadFactory {
         return list;
     }
 
-    private static List getElvesSquad() {
+    private static ArrayList<Elf> getElvesSquad() {
         ArrayList<Elf> list = new ArrayList<>();
         list.add(new Elf(Profession.MAG,0));
         for(int i =1; i<4; i++){
@@ -63,7 +63,7 @@ public class SquadFactory {
         return list;
     }
 
-    private static List getHumanSquad() {
+    private static ArrayList<Human> getHumanSquad() {
         ArrayList<Human> list = new ArrayList<>();
         list.add(new Human(Profession.MAG,0));
         for(int i =1; i<4; i++){
