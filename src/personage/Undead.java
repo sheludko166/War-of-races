@@ -1,7 +1,8 @@
 package personage;
 
 import Helper.Helper;
-import Statistic.Statistics;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -9,26 +10,28 @@ import java.util.ArrayList;
  * Created by dos on 26.05.2017.
  */
 public class Undead extends BasicPersona {
+    private static final Logger logger = LogManager.getLogger(Undead.class);
+
     public Undead(Profession profession, int index) {
         super(profession);
         switch (profession) {
             case ARCHER: {
                 this.setName(Undead.class.getSimpleName() + " Hunter" + index);
-                Helper.writeMessageInConsoleAndStatistics("Создан "+Undead.class.getSimpleName() + " Hunter" + index);
+                logger.info("Создан "+Undead.class.getSimpleName() + " Hunter" + index);
                 this.attack1 = 4;
                 this.attack2 = 2;
                 break;
             }
             case MAG: {
                 this.setName(Undead.class.getSimpleName() + " Necromancer");
-                Helper.writeMessageInConsoleAndStatistics("Создан "+Undead.class.getSimpleName() + " Necromancer");
+                logger.info("Создан "+Undead.class.getSimpleName() + " Necromancer");
                 this.attack1 = 50;
                 this.attack2 = 5;
                 break;
             }
             case WARRIOR: {
                 this.setName(Undead.class.getSimpleName() + " Zombie" + index);
-                Helper.writeMessageInConsoleAndStatistics("Создан " + Undead.class.getSimpleName() + " Zombie" + index);
+                logger.info("Создан " + Undead.class.getSimpleName() + " Zombie" + index);
                 this.attack1 = 18;
                 this.attack2 = 18;
                 break;
@@ -88,7 +91,7 @@ public class Undead extends BasicPersona {
         modifyDefensibleTeam.get(a).setUnModify(true);
         modifyDefensibleTeam.get(a).modifyAttack1 = modifyDefensibleTeam.get(a).modifyAttack1 * attack1/100;
         modifyDefensibleTeam.get(a).modifyAttack2 = modifyDefensibleTeam.get(a).modifyAttack2 * attack1/100;
-        Helper.writeMessageInConsoleAndStatistics(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
+        logger.info(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
 
     }
 
@@ -97,7 +100,7 @@ public class Undead extends BasicPersona {
         defensibleTeam.get(a).setUnModify(true);
         defensibleTeam.get(a).modifyAttack1 = defensibleTeam.get(a).attack1 * attack1/100;
         defensibleTeam.get(a).modifyAttack2 = defensibleTeam.get(a).attack2 * attack1/100;
-        Helper.writeMessageInConsoleAndStatistics(this.getName() + atac + defensibleTeam.get(a).getName());
+        logger.info(this.getName() + atac + defensibleTeam.get(a).getName());
     }
 
     private void magicAttackIfTwoDefensebleTeam(ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam, String atac, int attack) {
@@ -107,15 +110,14 @@ public class Undead extends BasicPersona {
             defensibleTeam.get(a).modifyAttack1 = defensibleTeam.get(a).attack1 * attack1/100;
             defensibleTeam.get(a).modifyAttack2 = defensibleTeam.get(a).attack2 * attack1/100;
             String s = this.getName() + atac + defensibleTeam.get(a).getName();
-            Helper.writeMessage(s);
-            Statistics.addProgressWar(s );
+            logger.info(s);
 
         } else {
             int a = Helper.random(modifyDefensibleTeam.size() - 1);
             modifyDefensibleTeam.get(a).setUnModify(true);
             modifyDefensibleTeam.get(a).modifyAttack1 = modifyDefensibleTeam.get(a).modifyAttack1 * attack1/100;
             modifyDefensibleTeam.get(a).modifyAttack2 = modifyDefensibleTeam.get(a).modifyAttack2 * attack1/100;
-            Helper.writeMessageInConsoleAndStatistics(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
+            logger.info(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
         }
     }
 }

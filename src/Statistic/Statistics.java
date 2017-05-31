@@ -15,8 +15,6 @@ public class Statistics {
     private static int allmove;
 
 
-    private static StringBuilder progressWar = new StringBuilder();
-
 
     public static int getAllmove() {
         return allmove;
@@ -64,14 +62,6 @@ public class Statistics {
         return countAttackFirstTeam + countAttackSecondTeam;
     }
 
-
-    public StringBuilder getProgressWar() {
-        return progressWar;
-    }
-
-    public static void addProgressWar(String progress) {
-        progressWar.append(progress + "\n");
-    }
 
 
 }

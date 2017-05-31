@@ -1,8 +1,10 @@
 package personage;
 
 import Helper.Helper;
+import org.apache.logging.log4j.*;
 
 import java.util.ArrayList;
+
 
 /**
  * Created by dos on 25.05.2017.
@@ -19,7 +21,7 @@ public class BasicPersona implements BasicIntefase{
     protected int modifyAttack1;
     protected int modifyAttack2;
 
-
+    private static final Logger logger = LogManager.getLogger(BasicPersona.class);
 
     public BasicPersona(Profession profession) {
         this.health = 100;
@@ -102,7 +104,7 @@ public class BasicPersona implements BasicIntefase{
                     attackingTeamTmp.get(i).modifyAttack1 = attackingTeamTmp.get(i).attack1 * attack1/100;
                     attackingTeamTmp.get(i).modifyAttack2 = attackingTeamTmp.get(i).attack2 * attack1/100;
                     modifyAttackingTeam.add(attackingTeamTmp.get(i));
-                    Helper.writeMessageInConsoleAndStatistics(name + atac + attackingTeamTmp.get(i).getName());
+                    logger.info(name + atac + attackingTeamTmp.get(i).getName());
                 }else{
                     this.attack2(attackingTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
                 }
@@ -163,11 +165,11 @@ public class BasicPersona implements BasicIntefase{
         modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
         if (modifyDefensibleTeam.get(a).health <= 0) {
             modifyDefensibleTeam.get(a).setAlive(false);
-            Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() +
+            logger.info(name + atac + modifyDefensibleTeam.get(a).getName() +
                     " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
             modifyDefensibleTeam.remove(a);
         } else {
-            Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+            logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
         }
     }
 
@@ -176,11 +178,11 @@ public class BasicPersona implements BasicIntefase{
         defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
         if(defensibleTeam.get(a).health <= 0){
             defensibleTeam.get(a).setAlive(false);
-            Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: "
+            logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: "
                     + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
             defensibleTeam.remove(a);
         }else{
-            Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+            logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
         }
     }
 
@@ -190,11 +192,11 @@ public class BasicPersona implements BasicIntefase{
             defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
             if(defensibleTeam.get(a).health <= 0){
                 defensibleTeam.get(a).setAlive(false);
-                Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: "
+                logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: "
                         + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
                 defensibleTeam.remove(a);
             }else{
-                Helper.writeMessageInConsoleAndStatistics(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+                logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
             }
 
         }else {
@@ -203,11 +205,11 @@ public class BasicPersona implements BasicIntefase{
             modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
             if (modifyDefensibleTeam.get(a).health <= 0) {
                 modifyDefensibleTeam.get(a).setAlive(false);
-                Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() +
+                logger.info(name + atac + modifyDefensibleTeam.get(a).getName() +
                         " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
                 modifyDefensibleTeam.remove(a);
             } else {
-                Helper.writeMessageInConsoleAndStatistics(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+                logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
             }
 
         }

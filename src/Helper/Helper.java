@@ -1,14 +1,14 @@
 package Helper;
 
-import Statistic.Statistics;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Created by Dima on 27.05.2017.
  */
 public class Helper {
-    public static void writeMessage(String s){
-        System.out.println(s);
-    }
+    private static final Logger logger = LogManager.getLogger(Helper.class);
+
 
     public static int random(){
         return (int) Math.round(Math.random());
@@ -18,16 +18,8 @@ public class Helper {
         return (int) Math.round(Math.random() * i);
     }
 
-    public static void writeSeporator(){
-        System.out.println("===================================================");
-        Statistics.addProgressWar("===================================================");
+    public static void logSeparator(){
+        logger.info("======================================================");
     }
-    public static void writeFirstPartMessage(String s){
-        System.out.print(s);
-        Statistics.addProgressWar(s);
-    }
-    public static void writeMessageInConsoleAndStatistics(String s) {
-        System.out.println(s);
-        Statistics.addProgressWar(s);
-    }
+
 }

@@ -1,6 +1,8 @@
 package personage;
 
 import Helper.Helper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.ArrayList;
 
@@ -8,26 +10,29 @@ import java.util.ArrayList;
  * Created by dos on 26.05.2017.
  */
 public class Orc extends BasicPersona {
+
+    private static final Logger logger = LogManager.getLogger(Orc.class);
+
     public Orc(Profession profession, int index) {
         super(profession);
 
         switch (profession){
             case ARCHER:{
                 this.setName(Orc.class.getSimpleName() +" "+ profession + index);
-                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" "+ profession + index);
+                logger.info("Создан " + Orc.class.getSimpleName() +" "+ profession + index);
                 this.attack1 = 3;
                 this.attack2 = 2;
                 break;
             }
             case MAG:{
                 this.setName(Orc.class.getSimpleName() +" Shaman");
-                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" Shaman");
+                logger.info("Создан " + Orc.class.getSimpleName() +" Shaman");
                 this.attack1 = 150;
                 break;
             }
             case WARRIOR:{
                 this.setName(Orc.class.getSimpleName() +" Goblin" + index);
-                Helper.writeMessageInConsoleAndStatistics("Создан " + Orc.class.getSimpleName() +" Goblin" + index);
+                logger.info("Создан " + Orc.class.getSimpleName() +" Goblin" + index);
                 this.attack1 = 20;
                 this.attack2 = 20;
                 break;
@@ -64,10 +69,10 @@ public class Orc extends BasicPersona {
                 if(modifyDefensibleTeam.size() > 0){
                     int a = Helper.random(modifyDefensibleTeam.size()-1);
                     modifyDefensibleTeam.get(a).setModify(false);
-                    Helper.writeMessageInConsoleAndStatistics(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
+                    logger.info(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
 
                 }else{
-                    Helper.writeMessageInConsoleAndStatistics(this.getName() + " никого не "+atac);
+                    logger.info(this.getName() + " никого не "+atac);
                 }
                 break;
             }
