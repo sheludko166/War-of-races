@@ -55,7 +55,7 @@ public class War {
 
             }else{
                 countAttackTeam++;
-                logger.info("Attack number " + countAttackTeam + ". Attacking squad " + nameRaces2);
+                logger.info("Attack number " + countAttackTeam + ". Attacks " + nameRaces2);
                 Helper.logSeparator();
                 int a = run(secondTeam,secondTeamModify,firstTeam,firstTeamModify);
                 statistics.addCountAttackSecondTeam();

@@ -1,0 +1,386 @@
+2017-05-31 15:56:21,112 [ INFO] - Choise of races...
+2017-05-31 15:56:21,117 [ INFO] - ======================================================
+2017-05-31 15:56:21,118 [ INFO] - HUMAN  vs  ORCS
+2017-05-31 15:56:21,118 [ INFO] - ======================================================
+2017-05-31 15:56:21,119 [ INFO] - Creating a squad of HUMAN
+2017-05-31 15:56:21,149 [ INFO] - Created Human MAG
+2017-05-31 15:56:21,150 [ INFO] - Created Human Crossbowman1
+2017-05-31 15:56:21,151 [ INFO] - Created Human Crossbowman2
+2017-05-31 15:56:21,151 [ INFO] - Created Human Crossbowman3
+2017-05-31 15:56:21,151 [ INFO] - Created Human WARRIOR1
+2017-05-31 15:56:21,151 [ INFO] - Created Human WARRIOR2
+2017-05-31 15:56:21,151 [ INFO] - Created Human WARRIOR3
+2017-05-31 15:56:21,152 [ INFO] - Created Human WARRIOR4
+2017-05-31 15:56:21,152 [ INFO] - ======================================================
+2017-05-31 15:56:21,152 [ INFO] - Creating a squad ORCS
+2017-05-31 15:56:21,153 [ INFO] - Created Orc Shaman
+2017-05-31 15:56:21,154 [ INFO] - Created Orc ARCHER1
+2017-05-31 15:56:21,154 [ INFO] - Created Orc ARCHER2
+2017-05-31 15:56:21,154 [ INFO] - Created Orc ARCHER3
+2017-05-31 15:56:21,154 [ INFO] - Created Orc Goblin1
+2017-05-31 15:56:21,154 [ INFO] - Created Orc Goblin2
+2017-05-31 15:56:21,154 [ INFO] - Created Orc Goblin3
+2017-05-31 15:56:21,155 [ INFO] - Created Orc Goblin4
+2017-05-31 15:56:21,155 [ INFO] - ======================================================
+2017-05-31 15:56:21,155 [ INFO] - Attack 1. Attacks HUMAN
+2017-05-31 15:56:21,155 [ INFO] - ======================================================
+2017-05-31 15:56:21,155 [ INFO] - Move number 1
+2017-05-31 15:56:21,157 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin1 damage: 18
+2017-05-31 15:56:21,157 [ INFO] - Move number 2
+2017-05-31 15:56:21,157 [ INFO] - Human Crossbowman2 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:21,157 [ INFO] - Move number 3
+2017-05-31 15:56:21,158 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER3 damage: 18
+2017-05-31 15:56:21,159 [ INFO] - Move number 4
+2017-05-31 15:56:21,159 [ INFO] - Human Crossbowman1 attacked Orc Goblin4 damage: 3
+2017-05-31 15:56:21,159 [ INFO] - Move number 5
+2017-05-31 15:56:21,159 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin3 damage: 18
+2017-05-31 15:56:21,160 [ INFO] - Move number 6
+2017-05-31 15:56:21,160 [ INFO] - Human WARRIOR4 attacked with a sword Orc Goblin1 damage: 18
+2017-05-31 15:56:21,160 [ INFO] - Move number 7
+2017-05-31 15:56:21,160 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin3 damage: 5
+2017-05-31 15:56:21,160 [ INFO] - Move number 8
+2017-05-31 15:56:21,161 [ INFO] - Human MAG attacked with magic Orc ARCHER1 damage: 4
+2017-05-31 15:56:21,161 [ INFO] - ======================================================
+2017-05-31 15:56:21,162 [ INFO] - Attack number 2. Attacks ORCS
+2017-05-31 15:56:21,162 [ INFO] - ======================================================
+2017-05-31 15:56:21,162 [ INFO] - Move number 9
+2017-05-31 15:56:21,162 [ INFO] - Orc Goblin4 attacked with a club Human Crossbowman2 damage: 20
+2017-05-31 15:56:21,163 [ INFO] - Move number 10
+2017-05-31 15:56:21,163 [ INFO] - Orc ARCHER1 hit the blade Human Crossbowman1 damage: 2
+2017-05-31 15:56:21,163 [ INFO] - Move number 11
+2017-05-31 15:56:21,163 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:21,163 [ INFO] - Move number 12
+2017-05-31 15:56:21,164 [ INFO] - Orc Goblin2 attacked with a club Human WARRIOR4 damage: 20
+2017-05-31 15:56:21,164 [ INFO] - Move number 13
+2017-05-31 15:56:21,164 [ INFO] - Orc Goblin1 attacked with a club Human WARRIOR3 damage: 20
+2017-05-31 15:56:21,164 [ INFO] - Move number 14
+2017-05-31 15:56:21,164 [ INFO] - Orc ARCHER3 pierced by an arrow Human WARRIOR2 damage: 3
+2017-05-31 15:56:21,165 [ INFO] - Move number 15
+2017-05-31 15:56:21,165 [ INFO] - Orc ARCHER2 pierced by an arrow Human Crossbowman2 damage: 3
+2017-05-31 15:56:21,165 [ INFO] - Move number 16
+2017-05-31 15:56:21,165 [ INFO] - Orc Goblin3 attacked with a club Human WARRIOR1 damage: 20
+2017-05-31 15:56:21,166 [ INFO] - ======================================================
+2017-05-31 15:56:21,166 [ INFO] - Attack 3. Attacks HUMAN
+2017-05-31 15:56:21,166 [ INFO] - ======================================================
+2017-05-31 15:56:21,170 [ INFO] - Move number 17
+2017-05-31 15:56:21,170 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER2 damage: 18
+2017-05-31 15:56:21,170 [ INFO] - Move number 18
+2017-05-31 15:56:21,170 [ INFO] - Human WARRIOR4 attacked with a sword Orc ARCHER2 damage: 18
+2017-05-31 15:56:21,170 [ INFO] - Move number 19
+2017-05-31 15:56:21,171 [ INFO] - Human Crossbowman2 pierced by an arrow Orc Goblin1 damage: 5
+2017-05-31 15:56:21,171 [ INFO] - Move number 20
+2017-05-31 15:56:21,171 [ INFO] - Human Crossbowman1 pierced by an arrow Orc ARCHER3 damage: 5
+2017-05-31 15:56:21,171 [ INFO] - Move number 21
+2017-05-31 15:56:21,171 [ INFO] - Human MAG attacked with magic Orc Goblin3 damage: 4
+2017-05-31 15:56:21,171 [ INFO] - Move number 22
+2017-05-31 15:56:21,172 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin1 damage: 18
+2017-05-31 15:56:21,172 [ INFO] - Move number 23
+2017-05-31 15:56:21,172 [ INFO] - Human WARRIOR2 attacked with a sword Orc ARCHER2 damage: 18
+2017-05-31 15:56:21,172 [ INFO] - Move number 24
+2017-05-31 15:56:21,173 [ INFO] - Human Crossbowman3 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:21,173 [ INFO] - ======================================================
+2017-05-31 15:56:21,173 [ INFO] - Attack number 4. Attacks ORCS
+2017-05-31 15:56:21,173 [ INFO] - ======================================================
+2017-05-31 15:56:21,173 [ INFO] - Move number 25
+2017-05-31 15:56:21,173 [ INFO] - Orc ARCHER1 hit the blade Human WARRIOR3 damage: 2
+2017-05-31 15:56:21,173 [ INFO] - Move number 26
+2017-05-31 15:56:21,174 [ INFO] - Orc Goblin3 attacked with a club Human WARRIOR1 damage: 20
+2017-05-31 15:56:21,174 [ INFO] - Move number 27
+2017-05-31 15:56:21,174 [ INFO] - Orc ARCHER3 hit the blade Human WARRIOR3 damage: 2
+2017-05-31 15:56:21,174 [ INFO] - Move number 28
+2017-05-31 15:56:21,174 [ INFO] - Orc Goblin4 attacked with a club Human WARRIOR4 damage: 20
+2017-05-31 15:56:21,174 [ INFO] - Move number 29
+2017-05-31 15:56:21,175 [ INFO] - Orc Goblin1 attacked with a club Human MAG damage: 20
+2017-05-31 15:56:21,175 [ INFO] - Move number 30
+2017-05-31 15:56:21,175 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:21,175 [ INFO] - Move number 31
+2017-05-31 15:56:21,175 [ INFO] - Orc ARCHER2 pierced by an arrow Human WARRIOR2 damage: 3
+2017-05-31 15:56:21,175 [ INFO] - Move number 32
+2017-05-31 15:56:21,175 [ INFO] - Orc Goblin2 attacked with a club Human MAG damage: 20
+2017-05-31 15:56:21,176 [ INFO] - ======================================================
+2017-05-31 15:56:21,176 [ INFO] - Attack 5. Attacks HUMAN
+2017-05-31 15:56:21,176 [ INFO] - ======================================================
+2017-05-31 15:56:21,176 [ INFO] - Move number 33
+2017-05-31 15:56:21,176 [ INFO] - Human WARRIOR2 attacked with a sword Orc Shaman damage: 18
+2017-05-31 15:56:21,176 [ INFO] - Move number 34
+2017-05-31 15:56:21,176 [ INFO] - Human WARRIOR4 attacked with a sword Orc ARCHER2 damage: 18
+2017-05-31 15:56:21,177 [ INFO] - Move number 35
+2017-05-31 15:56:21,177 [ INFO] - Human Crossbowman1 attacked Orc Shaman damage: 3
+2017-05-31 15:56:21,177 [ INFO] - Move number 36
+2017-05-31 15:56:21,177 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin4 damage: 18
+2017-05-31 15:56:21,177 [ INFO] - Move number 37
+2017-05-31 15:56:21,177 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin3 damage: 5
+2017-05-31 15:56:21,177 [ INFO] - Move number 38
+2017-05-31 15:56:21,179 [ INFO] - Human Crossbowman2 attacked Orc ARCHER1 damage: 3
+2017-05-31 15:56:21,179 [ INFO] - Move number 39
+2017-05-31 15:56:21,179 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER3 damage: 18
+2017-05-31 15:56:21,179 [ INFO] - Move number 40
+2017-05-31 15:56:21,179 [ INFO] - Human MAG attacked with magic Orc ARCHER1 damage: 4
+2017-05-31 15:56:21,180 [ INFO] - ======================================================
+2017-05-31 15:56:21,180 [ INFO] - Attack number 6. Attacks ORCS
+2017-05-31 15:56:21,180 [ INFO] - ======================================================
+2017-05-31 15:56:21,180 [ INFO] - Move number 41
+2017-05-31 15:56:21,180 [ INFO] - Orc ARCHER2 hit the blade Human WARRIOR2 damage: 2
+2017-05-31 15:56:21,181 [ INFO] - Move number 42
+2017-05-31 15:56:21,181 [ INFO] - Orc Goblin4 attacked with a club Human WARRIOR1 damage: 20
+2017-05-31 15:56:21,181 [ INFO] - Move number 43
+2017-05-31 15:56:21,182 [ INFO] - Orc ARCHER3 pierced by an arrow Human WARRIOR1 damage: 3
+2017-05-31 15:56:21,182 [ INFO] - Move number 44
+2017-05-31 15:56:21,182 [ INFO] - Orc ARCHER1 hit the blade Human Crossbowman1 damage: 2
+2017-05-31 15:56:21,182 [ INFO] - Move number 45
+2017-05-31 15:56:21,183 [ INFO] - Orc Shaman improved Orc Goblin1
+2017-05-31 15:56:21,183 [ INFO] - Move number 46
+2017-05-31 15:56:21,183 [ INFO] - Orc Goblin1 attacked with a club Human WARRIOR3 damage: 30
+2017-05-31 15:56:21,183 [ INFO] - Move number 47
+2017-05-31 15:56:21,183 [ INFO] - Orc Goblin2 attacked with a club Human Crossbowman1 damage: 20
+2017-05-31 15:56:21,183 [ INFO] - Move number 48
+2017-05-31 15:56:21,184 [ INFO] - Orc Goblin3 attacked with a club Human Crossbowman1 damage: 20
+2017-05-31 15:56:21,185 [ INFO] - ======================================================
+2017-05-31 15:56:21,185 [ INFO] - Attack 7. Attacks HUMAN
+2017-05-31 15:56:21,185 [ INFO] - ======================================================
+2017-05-31 15:56:21,186 [ INFO] - Move number 49
+2017-05-31 15:56:21,186 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin1 damage: 18
+2017-05-31 15:56:21,187 [ INFO] - Move number 50
+2017-05-31 15:56:21,188 [ INFO] - Human WARRIOR1 attacked with a sword Orc Goblin1 damage: 18
+2017-05-31 15:56:21,188 [ INFO] - Move number 51
+2017-05-31 15:56:21,188 [ INFO] - Human Crossbowman1 pierced by an arrow Orc Goblin1 damage: 5. Orc Goblin1 died.
+2017-05-31 15:56:21,188 [ INFO] - Move number 52
+2017-05-31 15:56:21,188 [ INFO] - Human Crossbowman2 pierced by an arrow Orc Goblin3 damage: 5
+2017-05-31 15:56:21,188 [ INFO] - Move number 53
+2017-05-31 15:56:21,188 [ INFO] - Human Crossbowman3 pierced by an arrow Orc ARCHER3 damage: 5
+2017-05-31 15:56:21,189 [ INFO] - Move number 54
+2017-05-31 15:56:21,189 [ INFO] - Human WARRIOR4 attacked with a sword Orc ARCHER3 damage: 18
+2017-05-31 15:56:21,189 [ INFO] - Move number 55
+2017-05-31 15:56:21,189 [ INFO] - Human MAG improved Human WARRIOR4
+2017-05-31 15:56:21,189 [ INFO] - Move number 56
+2017-05-31 15:56:21,189 [ INFO] - Human WARRIOR2 attacked with a sword Orc ARCHER1 damage: 18
+2017-05-31 15:56:21,189 [ INFO] - ======================================================
+2017-05-31 15:56:21,190 [ INFO] - Attack number 8. Attacks ORCS
+2017-05-31 15:56:21,190 [ INFO] - ======================================================
+2017-05-31 15:56:21,190 [ INFO] - Move number 57
+2017-05-31 15:56:21,190 [ INFO] - Orc ARCHER3 hit the blade Human Crossbowman1 damage: 2
+2017-05-31 15:56:21,190 [ INFO] - Move number 58
+2017-05-31 15:56:21,190 [ INFO] - Orc Shaman improved Orc ARCHER1
+2017-05-31 15:56:21,190 [ INFO] - Move number 59
+2017-05-31 15:56:21,190 [ INFO] - Orc Goblin2 attacked with a club Human WARRIOR4 damage: 20
+2017-05-31 15:56:21,191 [ INFO] - Move number 60
+2017-05-31 15:56:21,191 [ INFO] - Orc ARCHER2 pierced by an arrow Human WARRIOR4 damage: 3
+2017-05-31 15:56:21,191 [ INFO] - Move number 61
+2017-05-31 15:56:21,191 [ INFO] - Orc ARCHER1 hit the blade Human Crossbowman3 damage: 3
+2017-05-31 15:56:21,191 [ INFO] - Move number 62
+2017-05-31 15:56:21,191 [ INFO] - Orc Goblin3 attacked with a club Human WARRIOR4 damage: 20
+2017-05-31 15:56:21,191 [ INFO] - Move number 63
+2017-05-31 15:56:21,191 [ INFO] - Orc Goblin4 attacked with a club Human Crossbowman2 damage: 20
+2017-05-31 15:56:21,191 [ INFO] - ======================================================
+2017-05-31 15:56:21,191 [ INFO] - Attack 9. Attacks HUMAN
+2017-05-31 15:56:21,192 [ INFO] - ======================================================
+2017-05-31 15:56:21,192 [ INFO] - Move namber 64
+2017-05-31 15:56:21,192 [ INFO] - Human WARRIOR4 attacked with a sword Orc ARCHER1 damage: 27
+2017-05-31 15:56:21,192 [ INFO] - Move number 65
+2017-05-31 15:56:21,192 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin3 damage: 18
+2017-05-31 15:56:21,192 [ INFO] - Move number 66
+2017-05-31 15:56:21,192 [ INFO] - Human Crossbowman3 attacked Orc Goblin4 damage: 3
+2017-05-31 15:56:21,192 [ INFO] - Move number 67
+2017-05-31 15:56:21,192 [ INFO] - Human WARRIOR1 attacked with a sword Orc Shaman damage: 18
+2017-05-31 15:56:21,192 [ INFO] - Move number 68
+2017-05-31 15:56:21,193 [ INFO] - Human Crossbowman1 attacked Orc Shaman damage: 3
+2017-05-31 15:56:21,193 [ INFO] - Move number 69
+2017-05-31 15:56:21,193 [ INFO] - Human MAG improved Human WARRIOR4
+2017-05-31 15:56:21,193 [ INFO] - Move number 70
+2017-05-31 15:56:21,193 [ INFO] - Human WARRIOR3 attacked with a sword Orc ARCHER1 damage: 18
+2017-05-31 15:56:21,193 [ INFO] - Move number 71
+2017-05-31 15:56:21,193 [ INFO] - Human Crossbowman2 attacked Orc ARCHER1 damage: 3
+2017-05-31 15:56:21,194 [ INFO] - ======================================================
+2017-05-31 15:56:21,194 [ INFO] - Attack number 10. Attacks ORCS
+2017-05-31 15:56:21,194 [ INFO] - ======================================================
+2017-05-31 15:56:21,194 [ INFO] - Move namber 72
+2017-05-31 15:56:21,194 [ INFO] - Orc ARCHER1 hit the blade Human Crossbowman2 damage: 2
+2017-05-31 15:56:21,194 [ INFO] - Move number 73
+2017-05-31 15:56:21,194 [ INFO] - Orc Shaman send a curse Human WARRIOR4
+2017-05-31 15:56:21,195 [ INFO] - Move number 74
+2017-05-31 15:56:21,195 [ INFO] - Orc Goblin4 attacked with a club Human Crossbowman3 damage: 20
+2017-05-31 15:56:21,195 [ INFO] - Move number 75
+2017-05-31 15:56:21,195 [ INFO] - Orc ARCHER2 hit the blade Human WARRIOR4 damage: 2
+2017-05-31 15:56:21,195 [ INFO] - Move number 76
+2017-05-31 15:56:21,195 [ INFO] - Orc ARCHER3 pierced by an arrow Human WARRIOR4 damage: 3
+2017-05-31 15:56:21,195 [ INFO] - Move number 77
+2017-05-31 15:56:21,196 [ INFO] - Orc Goblin2 attacked with a club Human MAG damage: 20
+2017-05-31 15:56:21,196 [ INFO] - Move number 78
+2017-05-31 15:56:21,196 [ INFO] - Orc Goblin3 attacked with a club Human WARRIOR4 damage: 20. Human WARRIOR4 died.
+2017-05-31 15:56:21,196 [ INFO] - ======================================================
+2017-05-31 15:56:21,196 [ INFO] - Attack 11. Attacks HUMAN
+2017-05-31 15:56:21,196 [ INFO] - ======================================================
+2017-05-31 15:56:21,196 [ INFO] - Move number 79
+2017-05-31 15:56:21,196 [ INFO] - Human MAG attacked with magic Orc ARCHER2 damage: 4
+2017-05-31 15:56:21,197 [ INFO] - Move number 80
+2017-05-31 15:56:21,197 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin4 damage: 18
+2017-05-31 15:56:21,197 [ INFO] - Move number 81
+2017-05-31 15:56:21,197 [ INFO] - Human Crossbowman3 attacked Orc ARCHER2 damage: 3
+2017-05-31 15:56:21,197 [ INFO] - Move number 82
+2017-05-31 15:56:21,197 [ INFO] - Human Crossbowman1 attacked Orc Goblin2 damage: 3
+2017-05-31 15:56:21,197 [ INFO] - Move number 83
+2017-05-31 15:56:21,197 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER3 damage: 18
+2017-05-31 15:56:21,198 [ INFO] - Move number 84
+2017-05-31 15:56:21,198 [ INFO] - Human WARRIOR2 attacked with a sword Orc Shaman damage: 18
+2017-05-31 15:56:21,200 [ INFO] - Move number 85
+2017-05-31 15:56:21,200 [ INFO] - Human Crossbowman2 attacked Orc ARCHER3 damage: 3
+2017-05-31 15:56:21,200 [ INFO] - ======================================================
+2017-05-31 15:56:21,200 [ INFO] - Attack number 12. Attacks ORCS
+2017-05-31 15:56:21,200 [ INFO] - ======================================================
+2017-05-31 15:56:21,200 [ INFO] - Move number 86
+2017-05-31 15:56:21,200 [ INFO] - Orc Shaman improved Orc ARCHER3
+2017-05-31 15:56:21,201 [ INFO] - Move number 87
+2017-05-31 15:56:21,201 [ INFO] - Orc ARCHER2 pierced by an arrow Human Crossbowman2 damage: 3
+2017-05-31 15:56:21,201 [ INFO] - Move number 88
+2017-05-31 15:56:21,201 [ INFO] - Orc Goblin2 attacked with a club Human WARRIOR3 damage: 20
+2017-05-31 15:56:21,201 [ INFO] - Move number 89
+2017-05-31 15:56:21,201 [ INFO] - Orc ARCHER3 hit the blade Human Crossbowman1 damage: 3
+2017-05-31 15:56:21,201 [ INFO] - Move number 90
+2017-05-31 15:56:21,202 [ INFO] - Orc Goblin4 attacked with a club Human Crossbowman1 damage: 20
+2017-05-31 15:56:21,202 [ INFO] - Move number 91
+2017-05-31 15:56:21,202 [ INFO] - Orc Goblin3 attacked with a club Human Crossbowman3 damage: 20
+2017-05-31 15:56:21,202 [ INFO] - Move number 92
+2017-05-31 15:56:21,202 [ INFO] - Orc ARCHER1 pierced by an arrow Human Crossbowman3 damage: 3
+2017-05-31 15:56:21,202 [ INFO] - ======================================================
+2017-05-31 15:56:21,202 [ INFO] - Attack 13. Attacks HUMAN
+2017-05-31 15:56:21,202 [ INFO] - ======================================================
+2017-05-31 15:56:21,202 [ INFO] - Move number 93
+2017-05-31 15:56:21,203 [ INFO] - Human Crossbowman1 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:21,203 [ INFO] - Move number 94
+2017-05-31 15:56:21,203 [ INFO] - Human WARRIOR3 attacked with a sword Orc ARCHER3 damage: 18. Orc ARCHER3 died.
+2017-05-31 15:56:21,203 [ INFO] - Move number 95
+2017-05-31 15:56:21,203 [ INFO] - Human Crossbowman2 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:21,203 [ INFO] - Move number 96
+2017-05-31 15:56:21,204 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin4 damage: 5
+2017-05-31 15:56:21,205 [ INFO] - Move number 97
+2017-05-31 15:56:21,205 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER2 damage: 18
+2017-05-31 15:56:21,206 [ INFO] - Move number 98
+2017-05-31 15:56:21,206 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin4 damage: 18
+2017-05-31 15:56:21,206 [ INFO] - Move number 99
+2017-05-31 15:56:21,206 [ INFO] - Human MAG improved Human Crossbowman2
+2017-05-31 15:56:21,206 [ INFO] - ======================================================
+2017-05-31 15:56:21,206 [ INFO] - Attack number 14. Attacks ORCS
+2017-05-31 15:56:21,206 [ INFO] - ======================================================
+2017-05-31 15:56:21,206 [ INFO] - Move number 100
+2017-05-31 15:56:21,207 [ INFO] - Orc Goblin3 attacked with a club Human MAG damage: 20
+2017-05-31 15:56:21,207 [ INFO] - Move number 101
+2017-05-31 15:56:21,207 [ INFO] - Orc Goblin2 attacked with a club Human Crossbowman2 damage: 20
+2017-05-31 15:56:21,207 [ INFO] - Move number 102
+2017-05-31 15:56:21,207 [ INFO] - Orc Goblin4 attacked with a club Human Crossbowman2 damage: 20
+2017-05-31 15:56:21,207 [ INFO] - Move number 103
+2017-05-31 15:56:21,207 [ INFO] - Orc Shaman improved Orc Goblin4
+2017-05-31 15:56:21,207 [ INFO] - Move number 104
+2017-05-31 15:56:21,208 [ INFO] - Orc ARCHER2 hit the blade Human Crossbowman2 damage: 2
+2017-05-31 15:56:21,208 [ INFO] - Move number 105
+2017-05-31 15:56:21,208 [ INFO] - Orc ARCHER1 pierced by an arrow Human Crossbowman1 damage: 3
+2017-05-31 15:56:21,208 [ INFO] - ======================================================
+2017-05-31 15:56:21,208 [ INFO] - Attack 15. Attacks HUMAN
+2017-05-31 15:56:21,208 [ INFO] - ======================================================
+2017-05-31 15:56:21,208 [ INFO] - Move namber 106
+2017-05-31 15:56:21,208 [ INFO] - Human Crossbowman2 pierced by an arrow Orc Goblin4 damage: 7
+2017-05-31 15:56:21,209 [ INFO] - Move number 107
+2017-05-31 15:56:21,209 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin4 damage: 18
+2017-05-31 15:56:21,209 [ INFO] - Move number 108
+2017-05-31 15:56:21,209 [ INFO] - Human Crossbowman1 pierced by an arrow Orc Goblin4 damage: 5
+2017-05-31 15:56:21,209 [ INFO] - Move number 109
+2017-05-31 15:56:21,209 [ INFO] - Human WARRIOR1 attacked with a sword Orc ARCHER2 damage: 18. Orc ARCHER2 died.
+2017-05-31 15:56:21,209 [ INFO] - Move number 110
+2017-05-31 15:56:21,209 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin4 damage: 5. Orc Goblin4 died.
+2017-05-31 15:56:21,210 [ INFO] - Move number 111
+2017-05-31 15:56:21,210 [ INFO] - Human MAG attacked with magic Orc Goblin2 damage: 4
+2017-05-31 15:56:21,210 [ INFO] - Move number 112
+2017-05-31 15:56:21,210 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin3 damage: 18
+2017-05-31 15:56:21,210 [ INFO] - ======================================================
+2017-05-31 15:56:21,210 [ INFO] - Attack number 16. Attacks ORCS
+2017-05-31 15:56:21,210 [ INFO] - ======================================================
+2017-05-31 15:56:21,210 [ INFO] - Move number 113
+2017-05-31 15:56:21,211 [ INFO] - Orc Shaman improved Orc Goblin3
+2017-05-31 15:56:21,211 [ INFO] - Move number 114
+2017-05-31 15:56:21,211 [ INFO] - Orc Goblin3 attacked with a club Human Crossbowman1 damage: 30. Human Crossbowman1 died.
+2017-05-31 15:56:21,211 [ INFO] - Move number 115
+2017-05-31 15:56:21,211 [ INFO] - Orc Goblin2 attacked with a club Human Crossbowman2 damage: 20. Human Crossbowman2 died.
+2017-05-31 15:56:21,211 [ INFO] - Move number 116
+2017-05-31 15:56:21,211 [ INFO] - Orc ARCHER1 hit the blade Human MAG damage: 2
+2017-05-31 15:56:21,211 [ INFO] - ======================================================
+2017-05-31 15:56:21,212 [ INFO] - Attack 17. Attacks HUMAN
+2017-05-31 15:56:21,212 [ INFO] - ======================================================
+2017-05-31 15:56:21,212 [ INFO] - Move number 117
+2017-05-31 15:56:21,213 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin3 damage: 5
+2017-05-31 15:56:21,213 [ INFO] - Move number 118
+2017-05-31 15:56:21,213 [ INFO] - Human WARRIOR1 attacked with a sword Orc Shaman damage: 18
+2017-05-31 15:56:21,214 [ INFO] - Move number 119
+2017-05-31 15:56:21,214 [ INFO] - Human MAG improved Human Crossbowman3
+2017-05-31 15:56:21,214 [ INFO] - Move number 120
+2017-05-31 15:56:21,214 [ INFO] - Human WARRIOR3 attacked with a sword Orc Goblin3 damage: 18. Orc Goblin3 died.
+2017-05-31 15:56:21,214 [ INFO] - Move number 121
+2017-05-31 15:56:21,214 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin2 damage: 18
+2017-05-31 15:56:21,215 [ INFO] - ======================================================
+2017-05-31 15:56:21,215 [ INFO] - Attack number 18. Attacks ORCS
+2017-05-31 15:56:21,215 [ INFO] - ======================================================
+2017-05-31 15:56:21,215 [ INFO] - Move number 122
+2017-05-31 15:56:21,215 [ INFO] - Orc Shaman improved Orc Goblin2
+2017-05-31 15:56:21,215 [ INFO] - Move number 123
+2017-05-31 15:56:21,215 [ INFO] - Orc ARCHER1 hit the blade Human Crossbowman3 damage: 2
+2017-05-31 15:56:21,215 [ INFO] - Move number 124
+2017-05-31 15:56:21,216 [ INFO] - Orc Goblin2 attacked with a club Human Crossbowman3 damage: 30
+2017-05-31 15:56:21,216 [ INFO] - ======================================================
+2017-05-31 15:56:21,216 [ INFO] - Attack 19. Attacks HUMAN
+2017-05-31 15:56:21,216 [ INFO] - ======================================================
+2017-05-31 15:56:21,216 [ INFO] - Move namber 125
+2017-05-31 15:56:21,216 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Goblin2 damage: 7
+2017-05-31 15:56:21,216 [ INFO] - Move number 126
+2017-05-31 15:56:21,216 [ INFO] - Human WARRIOR3 attacked with a sword Orc ARCHER1 damage: 18
+2017-05-31 15:56:21,217 [ INFO] - Move number 127
+2017-05-31 15:56:21,217 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin2 damage: 18
+2017-05-31 15:56:21,217 [ INFO] - Move number 128
+2017-05-31 15:56:21,217 [ INFO] - Human WARRIOR1 attacked with a sword Orc Goblin2 damage: 18
+2017-05-31 15:56:21,217 [ INFO] - Move number 129
+2017-05-31 15:56:21,217 [ INFO] - Human MAG improved Human WARRIOR3
+2017-05-31 15:56:21,217 [ INFO] - ======================================================
+2017-05-31 15:56:21,218 [ INFO] - Attack number 20. Attacks ORCS
+2017-05-31 15:56:21,218 [ INFO] - ======================================================
+2017-05-31 15:56:21,218 [ INFO] - Move namber 130
+2017-05-31 15:56:21,218 [ INFO] - Orc Goblin2 attacked with a club Human MAG damage: 20. Human MAG died.
+2017-05-31 15:56:21,218 [ INFO] - Move number 131
+2017-05-31 15:56:21,218 [ INFO] - Orc Shaman send a curse Human WARRIOR3
+2017-05-31 15:56:21,218 [ INFO] - Move number 132
+2017-05-31 15:56:21,218 [ INFO] - Orc ARCHER1 pierced by an arrow Human WARRIOR2 damage: 3
+2017-05-31 15:56:21,219 [ INFO] - ======================================================
+2017-05-31 15:56:21,219 [ INFO] - Attack 21. Attacks HUMAN
+2017-05-31 15:56:21,219 [ INFO] - ======================================================
+2017-05-31 15:56:21,219 [ INFO] - Move namber 133
+2017-05-31 15:56:21,219 [ INFO] - Human WARRIOR3 attacked with a sword Orc Shaman damage: 18
+2017-05-31 15:56:21,219 [ INFO] - Move number 134
+2017-05-31 15:56:21,219 [ INFO] - Human WARRIOR2 attacked with a sword Orc ARCHER1 damage: 18. Orc ARCHER1 died.
+2017-05-31 15:56:21,219 [ INFO] - Move number 135
+2017-05-31 15:56:21,220 [ INFO] - Human Crossbowman3 attacked Orc Goblin2 damage: 3
+2017-05-31 15:56:21,220 [ INFO] - Move number 136
+2017-05-31 15:56:21,220 [ INFO] - Human WARRIOR1 attacked with a sword Orc Goblin2 damage: 18
+2017-05-31 15:56:21,220 [ INFO] - ======================================================
+2017-05-31 15:56:21,220 [ INFO] - Attack number 22. Attacks ORCS
+2017-05-31 15:56:21,220 [ INFO] - ======================================================
+2017-05-31 15:56:21,220 [ INFO] - Move number 137
+2017-05-31 15:56:21,221 [ INFO] - Orc Goblin2 attacked with a club Human WARRIOR3 damage: 20
+2017-05-31 15:56:21,221 [ INFO] - Move number 138
+2017-05-31 15:56:21,221 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:21,221 [ INFO] - ======================================================
+2017-05-31 15:56:21,221 [ INFO] - Attack 23. Attacks HUMAN
+2017-05-31 15:56:21,221 [ INFO] - ======================================================
+2017-05-31 15:56:21,221 [ INFO] - Move number 139
+2017-05-31 15:56:21,222 [ INFO] - Human Crossbowman3 pierced by an arrow Orc Shaman damage: 5. Orc Shaman died.
+2017-05-31 15:56:21,222 [ INFO] - Move number 140
+2017-05-31 15:56:21,222 [ INFO] - Human WARRIOR2 attacked with a sword Orc Goblin2 damage: 18. Orc Goblin2 died.
+2017-05-31 15:56:21,222 [ INFO] - ======================================================
+2017-05-31 15:56:21,222 [ INFO] - The battle is over!
+2017-05-31 15:56:21,222 [ INFO] - Victory of HUMAN
+2017-05-31 15:56:21,222 [ INFO] - ======================================================
+2017-05-31 15:56:21,223 [ INFO] - Battle statistics:
+2017-05-31 15:56:21,223 [ INFO] - ======================================================
+2017-05-31 15:56:21,223 [ INFO] - Number of all attacks completed: 23
+2017-05-31 15:56:21,223 [ INFO] - Number of attacks completed by the squad HUMAN : 12
+2017-05-31 15:56:21,223 [ INFO] - Number of attacks completed by the squad ORCS : 11
+2017-05-31 15:56:21,223 [ INFO] - ======================================================
+2017-05-31 15:56:21,223 [ INFO] - Number of all moves: 140
+2017-05-31 15:56:21,223 [ INFO] - Number of moves by the squad HUMAN : 77
+2017-05-31 15:56:21,224 [ INFO] - Number of moves by the squad ORCS : 63
+2017-05-31 15:56:21,224 [ INFO] - ======================================================

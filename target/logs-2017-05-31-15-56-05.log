@@ -1,0 +1,371 @@
+2017-05-31 15:56:05,672 [ INFO] - Choise of races...
+2017-05-31 15:56:05,676 [ INFO] - ======================================================
+2017-05-31 15:56:05,677 [ INFO] - ELVES  vs  ORCS
+2017-05-31 15:56:05,677 [ INFO] - ======================================================
+2017-05-31 15:56:05,678 [ INFO] - Creating a squad ELVES
+2017-05-31 15:56:05,682 [ INFO] - Created Elf MAG
+2017-05-31 15:56:05,682 [ INFO] - Created Elf ARCHER1
+2017-05-31 15:56:05,683 [ INFO] - Created Elf ARCHER2
+2017-05-31 15:56:05,683 [ INFO] - Created Elf ARCHER3
+2017-05-31 15:56:05,683 [ INFO] - Created Elf WARRIOR1
+2017-05-31 15:56:05,683 [ INFO] - Created Elf WARRIOR2
+2017-05-31 15:56:05,683 [ INFO] - Created Elf WARRIOR3
+2017-05-31 15:56:05,684 [ INFO] - Created Elf WARRIOR4
+2017-05-31 15:56:05,684 [ INFO] - ======================================================
+2017-05-31 15:56:05,684 [ INFO] - Creating a squad ORCS
+2017-05-31 15:56:05,686 [ INFO] - Created Orc Shaman
+2017-05-31 15:56:05,686 [ INFO] - Created Orc ARCHER1
+2017-05-31 15:56:05,686 [ INFO] - Created Orc ARCHER2
+2017-05-31 15:56:05,686 [ INFO] - Created Orc ARCHER3
+2017-05-31 15:56:05,687 [ INFO] - Created Orc Goblin1
+2017-05-31 15:56:05,687 [ INFO] - Created Orc Goblin2
+2017-05-31 15:56:05,687 [ INFO] - Created Orc Goblin3
+2017-05-31 15:56:05,687 [ INFO] - Created Orc Goblin4
+2017-05-31 15:56:05,687 [ INFO] - ======================================================
+2017-05-31 15:56:05,688 [ INFO] - Attack 1. Attacks ELVES
+2017-05-31 15:56:05,688 [ INFO] - ======================================================
+2017-05-31 15:56:05,688 [ INFO] - Move number 1
+2017-05-31 15:56:05,689 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Shaman damage: 15
+2017-05-31 15:56:05,690 [ INFO] - Move number 2
+2017-05-31 15:56:05,690 [ INFO] - Elf ARCHER3 pierced by an arrow Orc Goblin4 damage: 7
+2017-05-31 15:56:05,691 [ INFO] - Move number 3
+2017-05-31 15:56:05,691 [ INFO] - Elf ARCHER1 attacked Orc ARCHER2 damage: 3
+2017-05-31 15:56:05,691 [ INFO] - Move number 4
+2017-05-31 15:56:05,691 [ INFO] - Elf ARCHER2 pierced by an arrow Orc ARCHER2 damage: 7
+2017-05-31 15:56:05,691 [ INFO] - Move number 5
+2017-05-31 15:56:05,691 [ INFO] - Elf WARRIOR1 attacked with a sword Orc Goblin1 damage: 15
+2017-05-31 15:56:05,691 [ INFO] - Move number 6
+2017-05-31 15:56:05,692 [ INFO] - Elf WARRIOR2 attacked with a sword Orc ARCHER2 damage: 15
+2017-05-31 15:56:05,692 [ INFO] - Move number 7
+2017-05-31 15:56:05,692 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin4 damage: 15
+2017-05-31 15:56:05,692 [ INFO] - Move number 8
+2017-05-31 15:56:05,692 [ INFO] - Elf MAG improved Elf WARRIOR1
+2017-05-31 15:56:05,692 [ INFO] - ======================================================
+2017-05-31 15:56:05,692 [ INFO] - Attack number 2. Attacks ORCS
+2017-05-31 15:56:05,693 [ INFO] - ======================================================
+2017-05-31 15:56:05,693 [ INFO] - Move number 9
+2017-05-31 15:56:05,693 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR2 damage: 3
+2017-05-31 15:56:05,693 [ INFO] - Move number 10
+2017-05-31 15:56:05,693 [ INFO] - Orc Goblin2 attacked with a club Elf WARRIOR1 damage: 20
+2017-05-31 15:56:05,693 [ INFO] - Move number 11
+2017-05-31 15:56:05,694 [ INFO] - Orc Goblin3 attacked with a club Elf WARRIOR1 damage: 20
+2017-05-31 15:56:05,694 [ INFO] - Move number 12
+2017-05-31 15:56:05,694 [ INFO] - Orc Shaman send a curse Elf WARRIOR1
+2017-05-31 15:56:05,694 [ INFO] - Move number 13
+2017-05-31 15:56:05,694 [ INFO] - Orc ARCHER2 pierced by an arrow Elf ARCHER2 damage: 3
+2017-05-31 15:56:05,695 [ INFO] - Move number 14
+2017-05-31 15:56:05,695 [ INFO] - Orc Goblin1 attacked with a club Elf WARRIOR1 damage: 20
+2017-05-31 15:56:05,696 [ INFO] - Move number 15
+2017-05-31 15:56:05,696 [ INFO] - Orc ARCHER1 pierced by an arrow Elf WARRIOR1 damage: 3
+2017-05-31 15:56:05,696 [ INFO] - Move number 16
+2017-05-31 15:56:05,696 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR1 damage: 20
+2017-05-31 15:56:05,697 [ INFO] - ======================================================
+2017-05-31 15:56:05,697 [ INFO] - Attack 3. Attacks ELVES
+2017-05-31 15:56:05,697 [ INFO] - ======================================================
+2017-05-31 15:56:05,697 [ INFO] - Move namber 17
+2017-05-31 15:56:05,698 [ INFO] - Elf WARRIOR1 attacked with a sword Orc Goblin1 damage: 15
+2017-05-31 15:56:05,698 [ INFO] - Move number 18
+2017-05-31 15:56:05,698 [ INFO] - Elf WARRIOR2 attacked with a sword Orc ARCHER2 damage: 15
+2017-05-31 15:56:05,698 [ INFO] - Move number 19
+2017-05-31 15:56:05,698 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin2 damage: 15
+2017-05-31 15:56:05,699 [ INFO] - Move number 20
+2017-05-31 15:56:05,699 [ INFO] - Elf ARCHER3 pierced by an arrow Orc ARCHER1 damage: 7
+2017-05-31 15:56:05,699 [ INFO] - Move number 21
+2017-05-31 15:56:05,699 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Goblin3 damage: 15
+2017-05-31 15:56:05,699 [ INFO] - Move number 22
+2017-05-31 15:56:05,699 [ INFO] - Elf ARCHER2 pierced by an arrow Orc ARCHER2 damage: 7
+2017-05-31 15:56:05,700 [ INFO] - Move number 23
+2017-05-31 15:56:05,700 [ INFO] - Elf ARCHER1 attacked Orc ARCHER1 damage: 3
+2017-05-31 15:56:05,700 [ INFO] - Move number 24
+2017-05-31 15:56:05,700 [ INFO] - Elf MAG attacked with magic Orc ARCHER1 damage: 10
+2017-05-31 15:56:05,700 [ INFO] - ======================================================
+2017-05-31 15:56:05,700 [ INFO] - Attack number 4. Attacks ORCS
+2017-05-31 15:56:05,701 [ INFO] - ======================================================
+2017-05-31 15:56:05,701 [ INFO] - Move number 25
+2017-05-31 15:56:05,701 [ INFO] - Orc Goblin2 attacked with a club Elf WARRIOR2 damage: 20
+2017-05-31 15:56:05,701 [ INFO] - Move number 26
+2017-05-31 15:56:05,701 [ INFO] - Orc ARCHER2 hit the blade Elf WARRIOR4 damage: 2
+2017-05-31 15:56:05,701 [ INFO] - Move number 27
+2017-05-31 15:56:05,702 [ INFO] - Orc Goblin1 attacked with a club Elf WARRIOR2 damage: 20
+2017-05-31 15:56:05,702 [ INFO] - Move number 28
+2017-05-31 15:56:05,702 [ INFO] - Orc ARCHER1 pierced by an arrow Elf MAG damage: 3
+2017-05-31 15:56:05,702 [ INFO] - Move number 29
+2017-05-31 15:56:05,702 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR2 damage: 3
+2017-05-31 15:56:05,702 [ INFO] - Move number 30
+2017-05-31 15:56:05,703 [ INFO] - Orc Goblin4 attacked with a club Elf ARCHER3 damage: 20
+2017-05-31 15:56:05,703 [ INFO] - Move number 31
+2017-05-31 15:56:05,703 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER2 damage: 20
+2017-05-31 15:56:05,703 [ INFO] - Move number 32
+2017-05-31 15:56:05,703 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:05,703 [ INFO] - ======================================================
+2017-05-31 15:56:05,703 [ INFO] - Attack 5. Attacks ELVES
+2017-05-31 15:56:05,704 [ INFO] - ======================================================
+2017-05-31 15:56:05,704 [ INFO] - Move number 33
+2017-05-31 15:56:05,704 [ INFO] - Elf WARRIOR3 attacked with a sword Orc ARCHER2 damage: 15
+2017-05-31 15:56:05,704 [ INFO] - Move number 34
+2017-05-31 15:56:05,704 [ INFO] - Elf ARCHER2 pierced by an arrow Orc ARCHER1 damage: 7
+2017-05-31 15:56:05,704 [ INFO] - Move number 35
+2017-05-31 15:56:05,705 [ INFO] - Elf WARRIOR2 attacked with a sword Orc ARCHER1 damage: 15
+2017-05-31 15:56:05,705 [ INFO] - Move number 36
+2017-05-31 15:56:05,705 [ INFO] - Elf ARCHER3 attacked Orc ARCHER3 damage: 3
+2017-05-31 15:56:05,705 [ INFO] - Move number 37
+2017-05-31 15:56:05,705 [ INFO] - Elf ARCHER1 pierced by an arrow Orc ARCHER3 damage: 7
+2017-05-31 15:56:05,705 [ INFO] - Move number 38
+2017-05-31 15:56:05,706 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Goblin4 damage: 15
+2017-05-31 15:56:05,706 [ INFO] - Move number 39
+2017-05-31 15:56:05,706 [ INFO] - Elf WARRIOR1 attacked with a sword Orc ARCHER3 damage: 15
+2017-05-31 15:56:05,706 [ INFO] - Move number 40
+2017-05-31 15:56:05,706 [ INFO] - Elf MAG attacked with magic Orc Shaman damage: 10
+2017-05-31 15:56:05,706 [ INFO] - ======================================================
+2017-05-31 15:56:05,706 [ INFO] - Attack number 6. Attacks ORCS
+2017-05-31 15:56:05,707 [ INFO] - ======================================================
+2017-05-31 15:56:05,707 [ INFO] - Move number 41
+2017-05-31 15:56:05,707 [ INFO] - Orc Goblin2 attacked with a club Elf ARCHER3 damage: 20
+2017-05-31 15:56:05,707 [ INFO] - Move number 42
+2017-05-31 15:56:05,707 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR3 damage: 3
+2017-05-31 15:56:05,707 [ INFO] - Move number 43
+2017-05-31 15:56:05,708 [ INFO] - Orc ARCHER2 hit the blade Elf ARCHER1 damage: 2
+2017-05-31 15:56:05,708 [ INFO] - Move number 44
+2017-05-31 15:56:05,708 [ INFO] - Orc ARCHER1 pierced by an arrow Elf WARRIOR4 damage: 3
+2017-05-31 15:56:05,708 [ INFO] - Move number 45
+2017-05-31 15:56:05,708 [ INFO] - Orc Goblin4 attacked with a club Elf MAG damage: 20
+2017-05-31 15:56:05,709 [ INFO] - Move number 46
+2017-05-31 15:56:05,709 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:05,709 [ INFO] - Move number 47
+2017-05-31 15:56:05,709 [ INFO] - Orc Goblin3 attacked with a club Elf WARRIOR4 damage: 20
+2017-05-31 15:56:05,709 [ INFO] - Move number 48
+2017-05-31 15:56:05,709 [ INFO] - Orc Goblin1 attacked with a club Elf WARRIOR4 damage: 20
+2017-05-31 15:56:05,709 [ INFO] - ======================================================
+2017-05-31 15:56:05,710 [ INFO] - Attack 7. Attacks ELVES
+2017-05-31 15:56:05,710 [ INFO] - ======================================================
+2017-05-31 15:56:05,710 [ INFO] - Move number 49
+2017-05-31 15:56:05,710 [ INFO] - Elf ARCHER2 attacked Orc Goblin4 damage: 3
+2017-05-31 15:56:05,712 [ INFO] - Move number 50
+2017-05-31 15:56:05,712 [ INFO] - Elf WARRIOR2 attacked with a sword Orc ARCHER1 damage: 15
+2017-05-31 15:56:05,712 [ INFO] - Move number 51
+2017-05-31 15:56:05,712 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Goblin4 damage: 15
+2017-05-31 15:56:05,712 [ INFO] - Move number 52
+2017-05-31 15:56:05,712 [ INFO] - Elf ARCHER1 attacked Orc ARCHER2 damage: 3
+2017-05-31 15:56:05,713 [ INFO] - Move number 53
+2017-05-31 15:56:05,713 [ INFO] - Elf ARCHER3 pierced by an arrow Orc Shaman damage: 7
+2017-05-31 15:56:05,713 [ INFO] - Move number 54
+2017-05-31 15:56:05,713 [ INFO] - Elf WARRIOR3 attacked with a sword Orc ARCHER1 damage: 15
+2017-05-31 15:56:05,713 [ INFO] - Move number 55
+2017-05-31 15:56:05,713 [ INFO] - Elf WARRIOR1 attacked with a sword Orc ARCHER2 damage: 15
+2017-05-31 15:56:05,713 [ INFO] - Move number 56
+2017-05-31 15:56:05,714 [ INFO] - Elf MAG improved Elf ARCHER1
+2017-05-31 15:56:05,714 [ INFO] - ======================================================
+2017-05-31 15:56:05,715 [ INFO] - Attack number 8. Attacks ORCS
+2017-05-31 15:56:05,715 [ INFO] - ======================================================
+2017-05-31 15:56:05,715 [ INFO] - Move number 57
+2017-05-31 15:56:05,716 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER1 damage: 20
+2017-05-31 15:56:05,716 [ INFO] - Move number 58
+2017-05-31 15:56:05,716 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR3 damage: 20
+2017-05-31 15:56:05,716 [ INFO] - Move number 59
+2017-05-31 15:56:05,716 [ INFO] - Orc ARCHER3 pierced by an arrow Elf ARCHER1 damage: 3
+2017-05-31 15:56:05,716 [ INFO] - Move number 60
+2017-05-31 15:56:05,716 [ INFO] - Orc Shaman improved Orc Goblin2
+2017-05-31 15:56:05,717 [ INFO] - Move number 61
+2017-05-31 15:56:05,717 [ INFO] - Orc ARCHER2 hit the blade Elf ARCHER1 damage: 2
+2017-05-31 15:56:05,717 [ INFO] - Move number 62
+2017-05-31 15:56:05,717 [ INFO] - Orc ARCHER1 hit the blade Elf ARCHER1 damage: 2
+2017-05-31 15:56:05,717 [ INFO] - Move number 63
+2017-05-31 15:56:05,717 [ INFO] - Orc Goblin2 attacked with a club Elf ARCHER1 damage: 30
+2017-05-31 15:56:05,717 [ INFO] - Move number 64
+2017-05-31 15:56:05,718 [ INFO] - Orc Goblin1 attacked with a club Elf MAG damage: 20
+2017-05-31 15:56:05,718 [ INFO] - ======================================================
+2017-05-31 15:56:05,718 [ INFO] - Attack 9. Attacks ELVES
+2017-05-31 15:56:05,718 [ INFO] - ======================================================
+2017-05-31 15:56:05,718 [ INFO] - Move namber 65
+2017-05-31 15:56:05,718 [ INFO] - Elf ARCHER1 attacked Orc ARCHER1 damage: 4
+2017-05-31 15:56:05,719 [ INFO] - Move number 66
+2017-05-31 15:56:05,719 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin2 damage: 15
+2017-05-31 15:56:05,719 [ INFO] - Move number 67
+2017-05-31 15:56:05,719 [ INFO] - Elf ARCHER3 attacked Orc Goblin2 damage: 3
+2017-05-31 15:56:05,719 [ INFO] - Move number 68
+2017-05-31 15:56:05,719 [ INFO] - Elf WARRIOR4 attacked with a sword Orc ARCHER3 damage: 15
+2017-05-31 15:56:05,719 [ INFO] - Move number 69
+2017-05-31 15:56:05,720 [ INFO] - Elf WARRIOR1 attacked with a sword Orc Shaman damage: 15
+2017-05-31 15:56:05,720 [ INFO] - Move number 70
+2017-05-31 15:56:05,720 [ INFO] - Elf MAG attacked with magic Orc Shaman damage: 10
+2017-05-31 15:56:05,720 [ INFO] - Move number 71
+2017-05-31 15:56:05,726 [ INFO] - Elf ARCHER2 attacked Orc Goblin2 damage: 3
+2017-05-31 15:56:05,732 [ INFO] - Move number 72
+2017-05-31 15:56:05,732 [ INFO] - Elf WARRIOR2 attacked with a sword Orc Goblin2 damage: 15
+2017-05-31 15:56:05,732 [ INFO] - ======================================================
+2017-05-31 15:56:05,732 [ INFO] - Attack number 10. Attacks ORCS
+2017-05-31 15:56:05,732 [ INFO] - ======================================================
+2017-05-31 15:56:05,733 [ INFO] - Move namber 73
+2017-05-31 15:56:05,733 [ INFO] - Orc Goblin2 attacked with a club Elf ARCHER2 damage: 20
+2017-05-31 15:56:05,733 [ INFO] - Move number 74
+2017-05-31 15:56:05,733 [ INFO] - Orc Goblin1 attacked with a club Elf ARCHER2 damage: 20
+2017-05-31 15:56:05,733 [ INFO] - Move number 75
+2017-05-31 15:56:05,733 [ INFO] - Orc ARCHER2 pierced by an arrow Elf WARRIOR3 damage: 3
+2017-05-31 15:56:05,733 [ INFO] - Move number 76
+2017-05-31 15:56:05,733 [ INFO] - Orc ARCHER1 pierced by an arrow Elf ARCHER2 damage: 3
+2017-05-31 15:56:05,734 [ INFO] - Move number 77
+2017-05-31 15:56:05,734 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR1 damage: 3
+2017-05-31 15:56:05,734 [ INFO] - Move number 78
+2017-05-31 15:56:05,734 [ INFO] - Orc Goblin4 attacked with a club Elf MAG damage: 20
+2017-05-31 15:56:05,734 [ INFO] - Move number 79
+2017-05-31 15:56:05,734 [ INFO] - Orc Shaman improved Orc Goblin3
+2017-05-31 15:56:05,734 [ INFO] - Move number 80
+2017-05-31 15:56:05,735 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER3 damage: 30
+2017-05-31 15:56:05,735 [ INFO] - ======================================================
+2017-05-31 15:56:05,735 [ INFO] - Attack 11. Attacks ELVES
+2017-05-31 15:56:05,735 [ INFO] - ======================================================
+2017-05-31 15:56:05,735 [ INFO] - Move number 81
+2017-05-31 15:56:05,735 [ INFO] - Elf ARCHER2 attacked Orc ARCHER1 damage: 3
+2017-05-31 15:56:05,735 [ INFO] - Move number 82
+2017-05-31 15:56:05,736 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin3 damage: 15
+2017-05-31 15:56:05,736 [ INFO] - Move number 83
+2017-05-31 15:56:05,736 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Goblin2 damage: 15
+2017-05-31 15:56:05,736 [ INFO] - Move number 84
+2017-05-31 15:56:05,736 [ INFO] - Elf WARRIOR2 attacked with a sword Orc Goblin3 damage: 15
+2017-05-31 15:56:05,736 [ INFO] - Move number 85
+2017-05-31 15:56:05,736 [ INFO] - Elf MAG attacked with magic Orc ARCHER2 damage: 10
+2017-05-31 15:56:05,737 [ INFO] - Move number 86
+2017-05-31 15:56:05,737 [ INFO] - Elf ARCHER3 pierced by an arrow Orc Shaman damage: 7
+2017-05-31 15:56:05,737 [ INFO] - Move number 87
+2017-05-31 15:56:05,737 [ INFO] - Elf WARRIOR1 attacked with a sword Orc ARCHER2 damage: 15. Orc ARCHER2 died.
+2017-05-31 15:56:05,737 [ INFO] - Move number 88
+2017-05-31 15:56:05,737 [ INFO] - Elf ARCHER1 pierced by an arrow Orc ARCHER1 damage: 7
+2017-05-31 15:56:05,737 [ INFO] - ======================================================
+2017-05-31 15:56:05,738 [ INFO] - Attack number 12. Attacks ORCS
+2017-05-31 15:56:05,738 [ INFO] - ======================================================
+2017-05-31 15:56:05,738 [ INFO] - Move namber 89
+2017-05-31 15:56:05,738 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER2 damage: 20
+2017-05-31 15:56:05,738 [ INFO] - Move number 90
+2017-05-31 15:56:05,738 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR2 damage: 20
+2017-05-31 15:56:05,739 [ INFO] - Move number 91
+2017-05-31 15:56:05,739 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:05,739 [ INFO] - Move number 92
+2017-05-31 15:56:05,739 [ INFO] - Orc Goblin2 attacked with a club Elf ARCHER3 damage: 20
+2017-05-31 15:56:05,739 [ INFO] - Move number 93
+2017-05-31 15:56:05,739 [ INFO] - Orc ARCHER3 hit the blade Elf ARCHER3 damage: 2
+2017-05-31 15:56:05,739 [ INFO] - Move number 94
+2017-05-31 15:56:05,739 [ INFO] - Orc ARCHER1 hit the blade Elf MAG damage: 2
+2017-05-31 15:56:05,739 [ INFO] - Move number 95
+2017-05-31 15:56:05,739 [ INFO] - Orc Goblin1 attacked with a club Elf MAG damage: 20
+2017-05-31 15:56:05,740 [ INFO] - ======================================================
+2017-05-31 15:56:05,740 [ INFO] - Attack 13. Attacks ELVES
+2017-05-31 15:56:05,740 [ INFO] - ======================================================
+2017-05-31 15:56:05,740 [ INFO] - Move number 96
+2017-05-31 15:56:05,740 [ INFO] - Elf WARRIOR4 attacked with a sword Orc ARCHER3 damage: 15
+2017-05-31 15:56:05,740 [ INFO] - Move number 97
+2017-05-31 15:56:05,740 [ INFO] - Elf ARCHER1 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:05,741 [ INFO] - Move number 98
+2017-05-31 15:56:05,741 [ INFO] - Elf WARRIOR1 attacked with a sword Orc ARCHER1 damage: 15. Orc ARCHER1 died.
+2017-05-31 15:56:05,741 [ INFO] - Move number 99
+2017-05-31 15:56:05,741 [ INFO] - Elf ARCHER2 pierced by an arrow Orc Goblin1 damage: 7
+2017-05-31 15:56:05,741 [ INFO] - Move number 100
+2017-05-31 15:56:05,741 [ INFO] - Elf MAG improved Elf WARRIOR1
+2017-05-31 15:56:05,742 [ INFO] - Move number 101
+2017-05-31 15:56:05,742 [ INFO] - Elf WARRIOR2 attacked with a sword Orc Goblin3 damage: 15
+2017-05-31 15:56:05,742 [ INFO] - Move number 102
+2017-05-31 15:56:05,742 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin1 damage: 15
+2017-05-31 15:56:05,742 [ INFO] - Move number 103
+2017-05-31 15:56:05,743 [ INFO] - Elf ARCHER3 pierced by an arrow Orc Shaman damage: 7
+2017-05-31 15:56:05,743 [ INFO] - ======================================================
+2017-05-31 15:56:05,743 [ INFO] - Attack number 14. Attacks ORCS
+2017-05-31 15:56:05,743 [ INFO] - ======================================================
+2017-05-31 15:56:05,743 [ INFO] - Move number 104
+2017-05-31 15:56:05,743 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR1 damage: 3
+2017-05-31 15:56:05,743 [ INFO] - Move number 105
+2017-05-31 15:56:05,743 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR1 damage: 20. Elf WARRIOR1 died.
+2017-05-31 15:56:05,744 [ INFO] - Move number 106
+2017-05-31 15:56:05,744 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:05,744 [ INFO] - Move number 107
+2017-05-31 15:56:05,744 [ INFO] - Orc Goblin2 attacked with a club Elf WARRIOR3 damage: 20
+2017-05-31 15:56:05,744 [ INFO] - Move number 108
+2017-05-31 15:56:05,744 [ INFO] - Orc Goblin1 attacked with a club Elf WARRIOR2 damage: 20
+2017-05-31 15:56:05,744 [ INFO] - Move number 109
+2017-05-31 15:56:05,745 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER2 damage: 20. Elf ARCHER2 died.
+2017-05-31 15:56:05,745 [ INFO] - ======================================================
+2017-05-31 15:56:05,745 [ INFO] - Attack 15. Attacks ELVES
+2017-05-31 15:56:05,745 [ INFO] - ======================================================
+2017-05-31 15:56:05,745 [ INFO] - Move number 110
+2017-05-31 15:56:05,745 [ INFO] - Elf ARCHER1 pierced by an arrow Orc Goblin1 damage: 7
+2017-05-31 15:56:05,745 [ INFO] - Move number 111
+2017-05-31 15:56:05,745 [ INFO] - Elf MAG attacked with magic Orc Goblin1 damage: 10
+2017-05-31 15:56:05,745 [ INFO] - Move number 112
+2017-05-31 15:56:05,746 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Shaman damage: 15
+2017-05-31 15:56:05,746 [ INFO] - Move number 113
+2017-05-31 15:56:05,746 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Goblin1 damage: 15
+2017-05-31 15:56:05,746 [ INFO] - Move number 114
+2017-05-31 15:56:05,746 [ INFO] - Elf WARRIOR2 attacked with a sword Orc Goblin4 damage: 15
+2017-05-31 15:56:05,746 [ INFO] - Move number 115
+2017-05-31 15:56:05,746 [ INFO] - Elf ARCHER3 attacked Orc Goblin2 damage: 3
+2017-05-31 15:56:05,746 [ INFO] - ======================================================
+2017-05-31 15:56:05,746 [ INFO] - Attack number 16. Attacks ORCS
+2017-05-31 15:56:05,746 [ INFO] - ======================================================
+2017-05-31 15:56:05,747 [ INFO] - Move number 116
+2017-05-31 15:56:05,747 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR4 damage: 20
+2017-05-31 15:56:05,747 [ INFO] - Move number 117
+2017-05-31 15:56:05,748 [ INFO] - Orc Goblin3 attacked with a club Elf WARRIOR4 damage: 20
+2017-05-31 15:56:05,749 [ INFO] - Move number 118
+2017-05-31 15:56:05,749 [ INFO] - Orc Goblin2 attacked with a club Elf WARRIOR3 damage: 20
+2017-05-31 15:56:05,749 [ INFO] - Move number 119
+2017-05-31 15:56:05,749 [ INFO] - Orc ARCHER3 hit the blade Elf WARRIOR4 damage: 2
+2017-05-31 15:56:05,749 [ INFO] - Move number 120
+2017-05-31 15:56:05,749 [ INFO] - Orc Goblin1 attacked with a club Elf WARRIOR2 damage: 20. Elf WARRIOR2 died.
+2017-05-31 15:56:05,749 [ INFO] - Move number 121
+2017-05-31 15:56:05,749 [ INFO] - Orc Shaman could not  send a curse 
+2017-05-31 15:56:05,750 [ INFO] - ======================================================
+2017-05-31 15:56:05,750 [ INFO] - Attack 17. Attacks ELVES
+2017-05-31 15:56:05,750 [ INFO] - ======================================================
+2017-05-31 15:56:05,750 [ INFO] - Move number 122
+2017-05-31 15:56:05,750 [ INFO] - Elf WARRIOR4 attacked with a sword Orc Shaman damage: 15. Orc Shaman died.
+2017-05-31 15:56:05,750 [ INFO] - Move number 123
+2017-05-31 15:56:05,750 [ INFO] - Elf MAG attacked with magic Orc ARCHER3 damage: 10
+2017-05-31 15:56:05,751 [ INFO] - Move number 124
+2017-05-31 15:56:05,751 [ INFO] - Elf WARRIOR3 attacked with a sword Orc ARCHER3 damage: 15
+2017-05-31 15:56:05,751 [ INFO] - Move number 125
+2017-05-31 15:56:05,751 [ INFO] - Elf ARCHER1 pierced by an arrow Orc Goblin3 damage: 7
+2017-05-31 15:56:05,751 [ INFO] - Move number 126
+2017-05-31 15:56:05,751 [ INFO] - Elf ARCHER3 attacked Orc Goblin3 damage: 3
+2017-05-31 15:56:05,751 [ INFO] - ======================================================
+2017-05-31 15:56:05,751 [ INFO] - Attack number 18. Attacks ORCS
+2017-05-31 15:56:05,751 [ INFO] - ======================================================
+2017-05-31 15:56:05,751 [ INFO] - Move number 127
+2017-05-31 15:56:05,751 [ INFO] - Orc ARCHER3 pierced by an arrow Elf ARCHER1 damage: 3
+2017-05-31 15:56:05,752 [ INFO] - Move number 128
+2017-05-31 15:56:05,752 [ INFO] - Orc Goblin2 attacked with a club Elf ARCHER1 damage: 20
+2017-05-31 15:56:05,752 [ INFO] - Move number 129
+2017-05-31 15:56:05,752 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR4 damage: 20. Elf WARRIOR4 died.
+2017-05-31 15:56:05,752 [ INFO] - Move number 130
+2017-05-31 15:56:05,752 [ INFO] - Orc Goblin1 attacked with a club Elf ARCHER1 damage: 20. Elf ARCHER1 died.
+2017-05-31 15:56:05,752 [ INFO] - Move number 131
+2017-05-31 15:56:05,752 [ INFO] - Orc Goblin3 attacked with a club Elf ARCHER3 damage: 20. Elf ARCHER3 died.
+2017-05-31 15:56:05,753 [ INFO] - ======================================================
+2017-05-31 15:56:05,753 [ INFO] - Attack 19. Attacks ELVES
+2017-05-31 15:56:05,753 [ INFO] - ======================================================
+2017-05-31 15:56:05,753 [ INFO] - Move number 132
+2017-05-31 15:56:05,753 [ INFO] - Elf WARRIOR3 attacked with a sword Orc Goblin3 damage: 15
+2017-05-31 15:56:05,753 [ INFO] - Move number 133
+2017-05-31 15:56:05,753 [ INFO] - Elf MAG attacked with magic Orc ARCHER3 damage: 10
+2017-05-31 15:56:05,753 [ INFO] - ======================================================
+2017-05-31 15:56:05,754 [ INFO] - Attack number 20. Attacks ORCS
+2017-05-31 15:56:05,754 [ INFO] - ======================================================
+2017-05-31 15:56:05,754 [ INFO] - Move number 134
+2017-05-31 15:56:05,754 [ INFO] - Orc Goblin2 attacked with a club Elf MAG damage: 20. Elf MAG died.
+2017-05-31 15:56:05,754 [ INFO] - Move number 135
+2017-05-31 15:56:05,754 [ INFO] - Orc ARCHER3 pierced by an arrow Elf WARRIOR3 damage: 3
+2017-05-31 15:56:05,754 [ INFO] - Move number 136
+2017-05-31 15:56:05,754 [ INFO] - Orc Goblin3 attacked with a club Elf WARRIOR3 damage: 20
+2017-05-31 15:56:05,754 [ INFO] - Move number 137
+2017-05-31 15:56:05,755 [ INFO] - Orc Goblin4 attacked with a club Elf WARRIOR3 damage: 20. Elf WARRIOR3 died.
+2017-05-31 15:56:05,755 [ INFO] - ======================================================
+2017-05-31 15:56:05,755 [ INFO] - The battle is over!
+2017-05-31 15:56:05,755 [ INFO] - Victory of ORCS
+2017-05-31 15:56:05,755 [ INFO] - ======================================================
+2017-05-31 15:56:05,755 [ INFO] - Battle statistics:
+2017-05-31 15:56:05,755 [ INFO] - ======================================================
+2017-05-31 15:56:05,755 [ INFO] - Number of all attacks completed: 20
+2017-05-31 15:56:05,755 [ INFO] - Number of attacks completed by the squad ELVES : 10
+2017-05-31 15:56:05,756 [ INFO] - Number of attacks completed by the squad ORCS : 10
+2017-05-31 15:56:05,756 [ INFO] - ======================================================
+2017-05-31 15:56:05,756 [ INFO] - Number of all moves: 137
+2017-05-31 15:56:05,756 [ INFO] - Number of moves by the squad ELVES : 69
+2017-05-31 15:56:05,756 [ INFO] - Number of moves by the squad ORCS : 68
+2017-05-31 15:56:05,756 [ INFO] - ======================================================
