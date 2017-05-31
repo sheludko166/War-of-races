@@ -1,20 +1,12 @@
 package Statistic;
 
-/**
- * Created by Dima on 30.05.2017.
- */
-
-
 public class Statistics {
 
     private static int countAttackFirstTeam ;
     private static int countAttackSecondTeam ;
-
     private static int moveNumbersFirstTeam;
     private static int moveNumbersSecondTeam;
     private static int allmove;
-
-
 
     public static int getAllmove() {
         return allmove;
@@ -40,7 +32,6 @@ public class Statistics {
         moveNumbersSecondTeam += move;
     }
 
-
     public static int getCountAttackFirstTeam() {
 
         return countAttackFirstTeam;
@@ -61,7 +52,4 @@ public class Statistics {
     public static int getCountTotalAttacks() {
         return countAttackFirstTeam + countAttackSecondTeam;
     }
-
-
-
 }

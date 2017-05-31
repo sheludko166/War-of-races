@@ -1,17 +1,11 @@
 package Factory;
 
-
 import Helper.Helper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import personage.*;
-
 import java.util.ArrayList;
 
-
-/**
- * Created by dos on 26.05.2017.
- */
 public class SquadFactory {
     private static final Logger logger = LogManager.getLogger(SquadFactory.class);
 

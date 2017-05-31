@@ -3,12 +3,8 @@ package personage;
 import Helper.Helper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import java.util.ArrayList;
 
-/**
- * Created by dos on 26.05.2017.
- */
 public class Orc extends BasicPersona {
 
     private static final Logger logger = LogManager.getLogger(Orc.class);
@@ -17,32 +13,27 @@ public class Orc extends BasicPersona {
         super(profession);
 
         switch (profession){
-            case ARCHER:{
+            case ARCHER:
                 this.setName(Orc.class.getSimpleName() +" "+ profession + index);
                 logger.info("Создан " + Orc.class.getSimpleName() +" "+ profession + index);
                 this.attack1 = 3;
                 this.attack2 = 2;
                 break;
-            }
-            case MAG:{
+
+            case MAG:
                 this.setName(Orc.class.getSimpleName() +" Shaman");
                 logger.info("Создан " + Orc.class.getSimpleName() +" Shaman");
                 this.attack1 = 150;
                 break;
-            }
-            case WARRIOR:{
+
+            case WARRIOR:
                 this.setName(Orc.class.getSimpleName() +" Goblin" + index);
                 logger.info("Создан " + Orc.class.getSimpleName() +" Goblin" + index);
                 this.attack1 = 20;
                 this.attack2 = 20;
                 break;
-            }
         }
-
-
     }
-
-
 
     @Override
     public void attack2(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam, ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
@@ -63,20 +54,18 @@ public class Orc extends BasicPersona {
             attack = attack2;
         }
 
-
         switch (profession){
-            case MAG: {
+            case MAG:
                 if(modifyDefensibleTeam.size() > 0){
                     int a = Helper.random(modifyDefensibleTeam.size()-1);
                     modifyDefensibleTeam.get(a).setModify(false);
                     logger.info(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
-
                 }else{
                     logger.info(this.getName() + " никого не "+atac);
                 }
                 break;
-            }
-            default:{
+
+            default:
                 if(modifyDefensibleTeam.size() > 0 && defensibleTeam.size()>0){
                     attackIfTwoDefensebleTeam(defensibleTeam, modifyDefensibleTeam, atac, attack);
                 }else if(modifyDefensibleTeam.size() <= 0 && defensibleTeam.size()>0){
@@ -85,8 +74,7 @@ public class Orc extends BasicPersona {
                     attackModifyDefensibleTeam(modifyDefensibleTeam, atac, attack);
                 }
                 break;
-            }
         }
-
     }
 }
+

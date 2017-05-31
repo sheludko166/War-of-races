@@ -4,15 +4,8 @@ import Statistic.Statistics;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import personage.BasicPersona;
-
 import java.util.ArrayList;
 
-
-
-
-/**
- * Created by dos on 25.05.2017.
- */
 public class War {
     private static ArrayList firstTeam = new ArrayList<>();
     private static ArrayList firstTeamModify = new ArrayList<>();
@@ -21,8 +14,7 @@ public class War {
     private static War war;
     private static boolean isWinner = false;
     public static Statistics statistics;
-   private static final Logger logger = LogManager.getLogger(War.class);
-
+    private static final Logger logger = LogManager.getLogger(War.class);
     public War(Statistics statistics) {
         this.statistics = statistics;
     }
@@ -77,7 +69,6 @@ public class War {
                 }
             }
         }
-
         logger.info("Статистика боя:");
         Helper.logSeparator();
         logger.info("Кол-во совершонных атак: " + statistics.getCountTotalAttacks());
@@ -90,15 +81,9 @@ public class War {
         Helper.logSeparator();
     }
 
-
-
-
-
-
     private static int run(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam,
                             ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         ArrayList listWhoWalked = new ArrayList<>();
-
         int count = 0;
         while (modifyAttackingTeam.size() > 0 && !isWinner(defensibleTeam,modifyDefensibleTeam)){
             ++count;
@@ -141,7 +126,6 @@ public class War {
         attackingTeam.addAll(listWhoWalked);
         Helper.logSeparator();
         return count;
-
     }
 
     private static boolean isWinner(ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
@@ -152,7 +136,6 @@ public class War {
             return false;
         }
     }
-
 
     private Alliance randomAlliance(){
         Alliance[] list = Alliance.values();
@@ -165,5 +148,4 @@ public class War {
         int a = Helper.random(list.length-1);
         return list[a];
     }
-
 }

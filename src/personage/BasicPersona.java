@@ -2,13 +2,8 @@ package personage;
 
 import Helper.Helper;
 import org.apache.logging.log4j.*;
-
 import java.util.ArrayList;
 
-
-/**
- * Created by dos on 25.05.2017.
- */
 public class BasicPersona implements BasicIntefase{
     protected int health;
     private String name;
@@ -30,8 +25,6 @@ public class BasicPersona implements BasicIntefase{
         this.profession = profession;
     }
 
-
-
     public boolean isModify() {
         return modify;
     }
@@ -39,6 +32,7 @@ public class BasicPersona implements BasicIntefase{
     public void setModify(boolean modify) {
         this.modify = modify;
     }
+
     public boolean isUnModify() {
         return unModify;
     }
@@ -46,8 +40,6 @@ public class BasicPersona implements BasicIntefase{
     public void setUnModify(boolean unModify) {
         this.unModify = unModify;
     }
-
-
 
     public String getName() {
         return name;
@@ -94,7 +86,7 @@ public class BasicPersona implements BasicIntefase{
         }
 
         switch (profession){
-            case MAG: {
+            case MAG:
                 ArrayList<? extends BasicPersona> attackingTeamTmp = new ArrayList<>();
                 attackingTeamTmp.addAll(attackingTeam);
                 attackingTeamTmp.remove(this);
@@ -109,8 +101,8 @@ public class BasicPersona implements BasicIntefase{
                     this.attack2(attackingTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
                 }
                 break;
-            }
-            default: {
+
+            default:
                 if(modifyDefensibleTeam.size() > 0 && defensibleTeam.size()>0){
                     attackIfTwoDefensebleTeam(defensibleTeam, modifyDefensibleTeam, atac, attack);
                 }else if(modifyDefensibleTeam.size() <= 0 && defensibleTeam.size()>0){
@@ -119,10 +111,9 @@ public class BasicPersona implements BasicIntefase{
                     attackModifyDefensibleTeam(modifyDefensibleTeam, atac, attack);
                 }
                 break;
-            }
+
         }
     }
-
 
 
     @Override
@@ -198,10 +189,8 @@ public class BasicPersona implements BasicIntefase{
             }else{
                 logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
             }
-
         }else {
             int a = Helper.random(modifyDefensibleTeam.size() - 1);
-
             modifyDefensibleTeam.get(a).health = modifyDefensibleTeam.get(a).health - attack;
             if (modifyDefensibleTeam.get(a).health <= 0) {
                 modifyDefensibleTeam.get(a).setAlive(false);
@@ -211,10 +200,6 @@ public class BasicPersona implements BasicIntefase{
             } else {
                 logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
             }
-
         }
     }
-
-
-
 }

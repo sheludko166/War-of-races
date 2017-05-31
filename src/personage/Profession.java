@@ -1,8 +1,5 @@
 package personage;
 
-/**
- * Created by dos on 26.05.2017.
- */
 public enum Profession {
     MAG(1),
     ARCHER(2),
