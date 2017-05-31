@@ -23,7 +23,7 @@ public class War {
         statistics = new Statistics();
         war = new War(statistics);
 
-        logger.info("Выбор расс...");
+        logger.info("Choise of races...");
         Helper.logSeparator();
 
         Enum races1 = war.randomAlliance();
@@ -31,53 +31,52 @@ public class War {
 
         String nameRaces1 = races1.name();
         String nameRaces2 = races2.name();
-        logger.info(nameRaces1 + " против " + nameRaces2);
+        logger.info(nameRaces1 + "  vs  " + nameRaces2);
         Helper.logSeparator();
 
         firstTeam =  SquadFactory.getSquad(races1);
         secondTeam = SquadFactory.getSquad(races2);
 
         int countAttackTeam = 0;
-
         for (int i = Helper.random(); true; i++) {
             if(i % 2 == 0){
                 countAttackTeam++;
-                logger.info("Атака " + countAttackTeam + "-я. Атакует отряд " + nameRaces1);
+                logger.info("Attack " + countAttackTeam + ". Attacks " + nameRaces1);
                 Helper.logSeparator();
                 int a = run(firstTeam,firstTeamModify,secondTeam,secondTeamModify);
                 statistics.addCountAttackFirstTeam();
                 statistics.addMoveNumbersFirstTeam(a);
                 if(isWinner(secondTeam,secondTeamModify)){
-                    logger.info("Бой окончен!");
-                    logger.info("Победили " + nameRaces1);
+                    logger.info("The battle is over!");
+                    logger.info("Victory of " + nameRaces1);
                     Helper.logSeparator();
                     break;
                 }
 
             }else{
                 countAttackTeam++;
-                logger.info("Атака " + countAttackTeam + "-я. Атакует отряд " + nameRaces2);
+                logger.info("Attack number " + countAttackTeam + ". Attacking squad " + nameRaces2);
                 Helper.logSeparator();
                 int a = run(secondTeam,secondTeamModify,firstTeam,firstTeamModify);
                 statistics.addCountAttackSecondTeam();
                 statistics.addMoveNumbersSecondTeam(a);
                 if(isWinner(firstTeam,firstTeamModify)){
-                    logger.info("Бой окончен!");
-                    logger.info("Победили " + nameRaces2);
+                    logger.info("The battle is over!");
+                    logger.info("Victory of " + nameRaces2);
                     Helper.logSeparator();
                     break;
                 }
             }
         }
-        logger.info("Статистика боя:");
+        logger.info("Battle statistics:");
         Helper.logSeparator();
-        logger.info("Кол-во совершонных атак: " + statistics.getCountTotalAttacks());
-        logger.info("Кол-во совершонных атак отрядом " + nameRaces1 +" : "+ statistics.getCountAttackFirstTeam());
-        logger.info("Кол-во совершонных атак отрядом " + nameRaces2 +" : "+ statistics.getCountAttackSecondTeam());
+        logger.info("Number of all attacks completed: " + statistics.getCountTotalAttacks());
+        logger.info("Number of attacks completed by the squad " + nameRaces1 +" : "+ statistics.getCountAttackFirstTeam());
+        logger.info("Number of attacks completed by the squad " + nameRaces2 +" : "+ statistics.getCountAttackSecondTeam());
         Helper.logSeparator();
-        logger.info("Кол-во совершонных ходов: " + statistics.getAllmove());
-        logger.info("Кол-во ходов отрядом " + nameRaces1 + " : "+ statistics.getMoveNumbersFirstTeam());
-        logger.info("Кол-во ходов отрядом " + nameRaces2 + " : "+ statistics.getMoveNumbersSecondTeam());
+        logger.info("Number of all moves: " + statistics.getAllmove());
+        logger.info("Number of moves by the squad " + nameRaces1 + " : "+ statistics.getMoveNumbersFirstTeam());
+        logger.info("Number of moves by the squad " + nameRaces2 + " : "+ statistics.getMoveNumbersSecondTeam());
         Helper.logSeparator();
     }
 
@@ -88,7 +87,7 @@ public class War {
         while (modifyAttackingTeam.size() > 0 && !isWinner(defensibleTeam,modifyDefensibleTeam)){
             ++count;
             Statistics.addTotalmove();
-            logger.info("Ход "+String.valueOf(Statistics.getAllmove())+"-й ");
+            logger.info("Move namber "+String.valueOf(Statistics.getAllmove()));
             int index = Helper.random(modifyAttackingTeam.size()-1);
             if(Helper.random()==0){
                 modifyAttackingTeam.get(index).attack1(attackingTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
@@ -108,7 +107,7 @@ public class War {
             attackTeam.addAll(attackingTeam);
             int index = Helper.random(attackingTeam.size()-1);
             Statistics.addTotalmove();
-            logger.info("Ход "+String.valueOf(Statistics.getAllmove())+"-й ");
+            logger.info("Move number "+String.valueOf(Statistics.getAllmove()));
             if(Helper.random()==0){
                 attackingTeam.get(index).attack1(attackTeam,modifyAttackingTeam,defensibleTeam,modifyDefensibleTeam);
                 listWhoWalked.add(attackingTeam.get(index));

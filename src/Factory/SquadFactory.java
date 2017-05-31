@@ -12,16 +12,16 @@ public class SquadFactory {
     public static ArrayList getSquad(Enum races) {
 
         if (races.equals(Alliance.HUMAN)) {
-            logger.info("Создание отряда HUMAN");
+            logger.info("Creating a squad of HUMAN");
             return getHumanSquad();
         } else if (races.equals(Alliance.ELVES)) {
-            logger.info("Создание отряда ELVES");
+            logger.info("Creating a squad ELVES");
             return getElvesSquad();
         } else if (races.equals(Orda.ORCS)) {
-            logger.info("Создание отряда ORCS");
+            logger.info("Creating a squad ORCS");
             return getOrcsSquad();
         } else if (races.equals(Orda.UNDEAD)) {
-            logger.info("Создание отряда UNDEAD");
+            logger.info("Creating a squad UNDEAD");
             return getUndeadSquad();
         } else {
             return null;

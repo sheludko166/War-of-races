@@ -11,24 +11,24 @@ public class Orc extends BasicPersona {
 
     public Orc(Profession profession, int index) {
         super(profession);
-
+        //this.attack1 and this.attack2 - is the damage for each profession
         switch (profession){
             case ARCHER:
                 this.setName(Orc.class.getSimpleName() +" "+ profession + index);
-                logger.info("Создан " + Orc.class.getSimpleName() +" "+ profession + index);
+                logger.info("Created " + Orc.class.getSimpleName() +" "+ profession + index);
                 this.attack1 = 3;
                 this.attack2 = 2;
                 break;
 
             case MAG:
                 this.setName(Orc.class.getSimpleName() +" Shaman");
-                logger.info("Создан " + Orc.class.getSimpleName() +" Shaman");
+                logger.info("Created " + Orc.class.getSimpleName() +" Shaman");
                 this.attack1 = 150;
                 break;
 
             case WARRIOR:
                 this.setName(Orc.class.getSimpleName() +" Goblin" + index);
-                logger.info("Создан " + Orc.class.getSimpleName() +" Goblin" + index);
+                logger.info("Created " + Orc.class.getSimpleName() +" Goblin" + index);
                 this.attack1 = 20;
                 this.attack2 = 20;
                 break;
@@ -39,11 +39,11 @@ public class Orc extends BasicPersona {
     public void attack2(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam, ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         String atac = "";
         if(profession.equals(Profession.ARCHER)){
-            atac = " ударил клинком ";
+            atac = " hit the blade ";
         }else if(profession.equals(Profession.MAG)){
-            atac = " проклял ";
+            atac = " send a curse ";
         }else if (profession.equals(Profession.WARRIOR)){
-            atac = " атаковал дубиной ";
+            atac = " attacked with a club ";
         }
         int attack;
         if(isModify() || isUnModify()){
@@ -61,7 +61,7 @@ public class Orc extends BasicPersona {
                     modifyDefensibleTeam.get(a).setModify(false);
                     logger.info(this.getName() + atac + modifyDefensibleTeam.get(a).getName());
                 }else{
-                    logger.info(this.getName() + " никого не "+atac);
+                    logger.info(this.getName() + " could not "+atac);
                 }
                 break;
 

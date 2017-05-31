@@ -11,23 +11,24 @@ public class Undead extends BasicPersona {
     public Undead(Profession profession, int index) {
         super(profession);
         switch (profession) {
+            //this.attack1 and this.attack2 - is the damage for each profession
             case ARCHER:
                 this.setName(Undead.class.getSimpleName() + " Hunter" + index);
-                logger.info("Создан "+Undead.class.getSimpleName() + " Hunter" + index);
+                logger.info("Created "+Undead.class.getSimpleName() + " Hunter" + index);
                 this.attack1 = 4;
                 this.attack2 = 2;
                 break;
 
             case MAG:
                 this.setName(Undead.class.getSimpleName() + " Necromancer");
-                logger.info("Создан "+Undead.class.getSimpleName() + " Necromancer");
+                logger.info("Created "+Undead.class.getSimpleName() + " Necromancer");
                 this.attack1 = 50;
                 this.attack2 = 5;
                 break;
 
             case WARRIOR:
                 this.setName(Undead.class.getSimpleName() + " Zombie" + index);
-                logger.info("Создан " + Undead.class.getSimpleName() + " Zombie" + index);
+                logger.info("Created " + Undead.class.getSimpleName() + " Zombie" + index);
                 this.attack1 = 18;
                 this.attack2 = 18;
                 break;
@@ -39,11 +40,11 @@ public class Undead extends BasicPersona {
                         ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         String atac = "";
         if(profession.equals(Profession.ARCHER)){
-            atac = " пронзил стрелой ";
+            atac = " pierced by an arrow ";
         }else if(profession.equals(Profession.MAG)){
-            atac = " наслал недуг на ";
+            atac = " caused ailment ";
         }else if (profession.equals(Profession.WARRIOR)){
-                atac = " атаковал копьем ";
+                atac = " attacked with a spear ";
         }
 
         int attack;

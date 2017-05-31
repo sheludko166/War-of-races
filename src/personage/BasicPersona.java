@@ -63,16 +63,16 @@ public class BasicPersona implements BasicIntefase{
                         ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         String atac = "";
         if(profession.equals(Profession.ARCHER)){
-            atac = " пронзил стрелой ";
+            atac = " pierced by an arrow ";
         }else if(profession.equals(Profession.MAG)){
-            atac = " улучшил ";
+            atac = " improved ";
         }else if (profession.equals(Profession.WARRIOR)){
             if(this instanceof Orc){
-                atac = " атаковал дубиной ";
+                atac = " attacked with a club ";
             }else if (this instanceof Undead){
-                atac = " атаковал копьем ";
+                atac = " attacked with a spear ";
             }else{
-                atac = " атаковал мечом ";
+                atac = " attacked with a sword ";
             }
         }
 
@@ -120,16 +120,16 @@ public class BasicPersona implements BasicIntefase{
     public void attack2(ArrayList<? extends BasicPersona> attackingTeam, ArrayList<? extends BasicPersona> modifyAttackingTeam, ArrayList<? extends BasicPersona> defensibleTeam, ArrayList<? extends BasicPersona> modifyDefensibleTeam) {
         String atac = "";
         if(profession.equals(Profession.ARCHER)){
-            atac = " атаковал ";
+            atac = " attacked ";
         }else if(profession.equals(Profession.MAG)){
-            atac = " атаковал магией ";
+            atac = " attacked with magic ";
         }else if (profession.equals(Profession.WARRIOR)){
             if(this instanceof Orc){
-                atac = " атаковал дубиной ";
+                atac = " attacked with a club ";
             }else if (this instanceof Undead){
-                atac = " атаковал копьем ";
+                atac = " attacked with a spear ";
             }else{
-                atac = " атаковал мечом ";
+                atac = " attacked with a sword ";
             }
         }
         int attack;
@@ -157,10 +157,10 @@ public class BasicPersona implements BasicIntefase{
         if (modifyDefensibleTeam.get(a).health <= 0) {
             modifyDefensibleTeam.get(a).setAlive(false);
             logger.info(name + atac + modifyDefensibleTeam.get(a).getName() +
-                    " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
+                    " damage: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " died.");
             modifyDefensibleTeam.remove(a);
         } else {
-            logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+            logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " damage: " + attack);
         }
     }
 
@@ -169,11 +169,11 @@ public class BasicPersona implements BasicIntefase{
         defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
         if(defensibleTeam.get(a).health <= 0){
             defensibleTeam.get(a).setAlive(false);
-            logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                    + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
+            logger.info(name + atac + defensibleTeam.get(a).getName() + " damage: "
+                    + attack+ ". " + defensibleTeam.get(a).getName() + " died.");
             defensibleTeam.remove(a);
         }else{
-            logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+            logger.info(name + atac + defensibleTeam.get(a).getName() + " damage: " + attack);
         }
     }
 
@@ -183,11 +183,11 @@ public class BasicPersona implements BasicIntefase{
             defensibleTeam.get(a).health = defensibleTeam.get(a).health - attack;
             if(defensibleTeam.get(a).health <= 0){
                 defensibleTeam.get(a).setAlive(false);
-                logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: "
-                        + attack+ ". " + defensibleTeam.get(a).getName() + " убит.");
+                logger.info(name + atac + defensibleTeam.get(a).getName() + " damage: "
+                        + attack+ ". " + defensibleTeam.get(a).getName() + " died.");
                 defensibleTeam.remove(a);
             }else{
-                logger.info(name + atac + defensibleTeam.get(a).getName() + " урон: " + attack);
+                logger.info(name + atac + defensibleTeam.get(a).getName() + " damage: " + attack);
             }
         }else {
             int a = Helper.random(modifyDefensibleTeam.size() - 1);
@@ -195,10 +195,10 @@ public class BasicPersona implements BasicIntefase{
             if (modifyDefensibleTeam.get(a).health <= 0) {
                 modifyDefensibleTeam.get(a).setAlive(false);
                 logger.info(name + atac + modifyDefensibleTeam.get(a).getName() +
-                        " урон: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " убит.");
+                        " damage: " + attack + ". " + modifyDefensibleTeam.get(a).getName() + " died.");
                 modifyDefensibleTeam.remove(a);
             } else {
-                logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " урон: " + attack);
+                logger.info(name + atac + modifyDefensibleTeam.get(a).getName() + " damage: " + attack);
             }
         }
     }

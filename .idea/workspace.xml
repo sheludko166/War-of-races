@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3df3de69-4a0f-4362-9f35-df46f5e0da36" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-2017-05-31-14-17-28.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-2017-05-31-14-17-50.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/logs-2017-05-31-14-39-50.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/Factory/SquadFactory.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/Factory/SquadFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/War.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/War.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/personage/BasicPersona.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/personage/BasicPersona.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/personage/Elf.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/personage/Elf.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/personage/Human.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/personage/Human.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/personage/Orc.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/personage/Orc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/personage/Undead.class" afterPath="$PROJECT_DIR$/out/production/War_of_races/personage/Undead.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/War_of_races/log4j2.properties" afterPath="$PROJECT_DIR$/out/production/War_of_races/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factory/Alliance.java" afterPath="$PROJECT_DIR$/src/Factory/Alliance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factory/Orda.java" afterPath="$PROJECT_DIR$/src/Factory/Orda.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factory/SquadFactory.java" afterPath="$PROJECT_DIR$/src/Factory/SquadFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helper/Helper.java" afterPath="$PROJECT_DIR$/src/Helper/Helper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Statistic/Statistics.java" afterPath="$PROJECT_DIR$/src/Statistic/Statistics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/War.java" afterPath="$PROJECT_DIR$/src/War.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/log4j2.properties" afterPath="$PROJECT_DIR$/src/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/BasicIntefase.java" afterPath="$PROJECT_DIR$/src/personage/BasicIntefase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/BasicPersona.java" afterPath="$PROJECT_DIR$/src/personage/BasicPersona.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/Elf.java" afterPath="$PROJECT_DIR$/src/personage/Elf.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/Human.java" afterPath="$PROJECT_DIR$/src/personage/Human.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/Orc.java" afterPath="$PROJECT_DIR$/src/personage/Orc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/Profession.java" afterPath="$PROJECT_DIR$/src/personage/Profession.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/personage/Undead.java" afterPath="$PROJECT_DIR$/src/personage/Undead.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,33 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="War.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="War.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/War.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logs-2017-05-31-14-39-50.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/target/logs-2017-05-31-14-39-50.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SquadFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Factory/SquadFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="-1377">
+              <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +53,8 @@
       <file leaf-file-name="BasicPersona.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/personage/BasicPersona.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-1748">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,20 +65,8 @@
       <file leaf-file-name="Elf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/personage/Elf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/personage/Human.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="278">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,21 +77,11 @@
       <file leaf-file-name="Orc.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/personage/Orc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="493">
+              <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profession.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/personage/Profession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,22 +89,10 @@
       <file leaf-file-name="Undead.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/personage/Undead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="-1377">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Statistic/Statistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="method#getCountAttackFirstTeam#0;class#Statistics#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -206,17 +151,17 @@
         <option value="$PROJECT_DIR$/src/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/Factory/Alliance.java" />
         <option value="$PROJECT_DIR$/src/Factory/Orda.java" />
-        <option value="$PROJECT_DIR$/src/Factory/SquadFactory.java" />
         <option value="$PROJECT_DIR$/src/Helper/Helper.java" />
         <option value="$PROJECT_DIR$/src/personage/BasicIntefase.java" />
         <option value="$PROJECT_DIR$/src/personage/Profession.java" />
         <option value="$PROJECT_DIR$/src/Statistic/Statistics.java" />
-        <option value="$PROJECT_DIR$/src/War.java" />
-        <option value="$PROJECT_DIR$/src/personage/BasicPersona.java" />
-        <option value="$PROJECT_DIR$/src/personage/Elf.java" />
         <option value="$PROJECT_DIR$/src/personage/Human.java" />
+        <option value="$PROJECT_DIR$/src/personage/Elf.java" />
+        <option value="$PROJECT_DIR$/src/Factory/SquadFactory.java" />
+        <option value="$PROJECT_DIR$/src/personage/BasicPersona.java" />
         <option value="$PROJECT_DIR$/src/personage/Orc.java" />
         <option value="$PROJECT_DIR$/src/personage/Undead.java" />
+        <option value="$PROJECT_DIR$/src/War.java" />
       </list>
     </option>
   </component>
@@ -283,6 +228,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,20 +244,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="War-of-races" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="War-of-races" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="War-of-races" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,7 +336,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -822,18 +753,6 @@
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/War.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/War.java</url>
-          <line>21</line>
-          <properties class="War" method="main" />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="37" />
     </breakpoint-manager>
@@ -1062,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,43 +995,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/logs-2017-05-31-14-39-50.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/Alliance.java">
+    <entry file="file://$PROJECT_DIR$/src/personage/Human.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/Orda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helper/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        <state relative-caret-position="388">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/personage/BasicIntefase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,18 +1036,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Factory/SquadFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-134">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/Orda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factory/Alliance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/personage/BasicIntefase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/personage/BasicPersona.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1748">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1158,18 +1090,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/personage/Elf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/personage/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="278">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1178,8 +1100,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/personage/Orc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="493">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1188,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/personage/Undead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="-1377">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1198,19 +1120,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/War.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-1377">
+          <caret line="43" column="68" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/logs-2017-05-31-14-39-50.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
